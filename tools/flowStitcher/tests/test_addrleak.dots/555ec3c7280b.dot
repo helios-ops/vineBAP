@@ -1,0 +1,27 @@
+digraph G {
+   bb_555ec3c72864 [label="555ec3c72864-555ec3c72865 (0)" style=filled];
+   bb_555ec3c72870 [label="555ec3c72870-555ec3c72871 (1)" style=filled];
+   bb_555ec3c7280b [label="555ec3c7280b-555ec3c72829 (2)", color="green" style=filled];
+   bb_555ec3c7282a [label="555ec3c7282a-555ec3c72833 (3)" style=filled];
+   bb_555ec3c72842 [label="555ec3c72842-555ec3c72847 (4)" style=filled];
+   bb_555ec3c72866 [label="555ec3c72866-555ec3c7286f (5)", color="red" style=filled];
+   bb_555ec3c72834 [label="555ec3c72834-555ec3c72841 (6)" style=filled];
+   bb_555ec3c72854 [label="555ec3c72854-555ec3c72863 (7)" style=filled];
+   bb_555ec3c7284a [label="555ec3c7284a-555ec3c72853 (8)" style=filled];
+   func_7f9da6507120 [label="exit@7f9da6507120 [/lib/x86_64-linux-gnu/libc.so.6]", color=blue, shape=rectangle,URL="7f9da6507120.svg"];
+   func_555ec3c727df [label="dump_commodity@555ec3c727df [/ext4-384G/Experiments/real-world-ExpGen/flow-stitch/src/tests/test_addrleak]", color=blue, shape=rectangle,URL="555ec3c727df.svg"];
+   func_555ec3c7278a [label="get_index@555ec3c7278a [/ext4-384G/Experiments/real-world-ExpGen/flow-stitch/src/tests/test_addrleak]", color=blue, shape=rectangle,URL="555ec3c7278a.svg"];
+   bb_555ec3c7282a -> func_555ec3c7278a [color=blue];
+   bb_555ec3c7284a -> func_555ec3c7278a [color=blue];
+   bb_555ec3c72854 -> func_555ec3c727df [color=blue];
+   bb_555ec3c72866 -> func_7f9da6507120 [color=blue];
+   bb_555ec3c72834 -> bb_555ec3c7284a;
+   bb_555ec3c7284a -> bb_555ec3c72854;
+   bb_555ec3c72854 -> bb_555ec3c72864;
+   bb_555ec3c72864 -> bb_555ec3c72870;
+   bb_555ec3c7282a -> bb_555ec3c72834;
+   bb_555ec3c7280b -> bb_555ec3c7282a;
+   bb_555ec3c72870 -> bb_555ec3c7282a [color=purple];
+   bb_555ec3c72834 -> bb_555ec3c72842;
+   bb_555ec3c72842 -> bb_555ec3c72866;
+}

@@ -1,0 +1,13 @@
+digraph G {
+   bb_555ec3c727c7 [label="555ec3c727c7-555ec3c727d7 (0)" style=filled];
+   bb_555ec3c727dd [label="555ec3c727dd-555ec3c727de (1)", color="red" style=filled];
+   bb_555ec3c727b8 [label="555ec3c727b8-555ec3c727c6 (2)" style=filled];
+   bb_555ec3c7278a [label="555ec3c7278a-555ec3c727b7 (3)", color="green" style=filled];
+   func_7f9da6504680 [label="atoi@7f9da6504680 [/lib/x86_64-linux-gnu/libc.so.6]", color=blue, shape=rectangle,URL="7f9da6504680.svg"];
+   func_7f9da65440b0 [label="_IO_gets@7f9da65440b0 [/lib/x86_64-linux-gnu/libc.so.6]", color=blue, shape=rectangle,URL="7f9da65440b0.svg"];
+   bb_555ec3c7278a -> func_7f9da65440b0 [color=blue];
+   bb_555ec3c727b8 -> func_7f9da6504680 [color=blue];
+   bb_555ec3c7278a -> bb_555ec3c727b8;
+   bb_555ec3c727b8 -> bb_555ec3c727c7;
+   bb_555ec3c727c7 -> bb_555ec3c727dd;
+}

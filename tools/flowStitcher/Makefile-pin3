@@ -1,0 +1,47 @@
+## note: run this script under the ubuntu:14.04 docker environment !
+
+#-fno-rtti
+
+
+FUZZBALL_BASEDIR:=../fuzzball/
+
+VEXDIR:=$(FUZZBALL_BASEDIR)/vex-r2737/
+VEX_CPPFLAGS:=-I$(VEXDIR)/pub
+
+
+VINEDIR:=$(FUZZBALL_BASEDIR)/fuzzball/libasmir/
+VINE_CPPFLAGS:=-I$(VINEDIR)/src/include -I$(VINEDIR)/
+VINE_LDFLAGS:=-L$(VINEDIR)/src -lasmir
+
+
+#PINDIR:=/ext4-384G/Experiments/real-world-ExpGen/flow-stitch/pin-3.10-97971-gc5e41af74-gcc-linux
+PINDIR:=../pin-3.10-97971-gc5e41af74-gcc-linux
+#PINDIR:=../pin-2.14-71313-gcc.4.4.7-linux
+
+PIN_CPP_FLAGS:=-Wall -Werror -Wno-unknown-pragmas -D__PIN__=1 -DPIN_CRT=1 -fno-rtti -fno-stack-protector -fno-exceptions -funwind-tables -fasynchronous-unwind-tables -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2  -I$(PINDIR)/source/include/pin -I$(PINDIR)/source/include/pin/gen -isystem $(PINDIR)/extras/stlport/include -isystem $(PINDIR)/extras/libstdc++/include -isystem $(PINDIR)/extras/crt/include -isystem $(PINDIR)/extras/crt/include/arch-x86_64 -isystem $(PINDIR)/extras/crt/include/kernel/uapi -isystem $(PINDIR)/extras/crt/include/kernel/uapi/asm-x86 -I$(PINDIR)/extras/components/include -I$(PINDIR)/extras/xed-intel64/include/xed -I$(PINDIR)/source/tools/Utils -I$(PINDIR)/source/tools/InstLib -O3 -fomit-frame-pointer -fno-strict-aliasing 
+
+PIN_LD_FLAGS:=-shared -Wl,--hash-style=sysv -Wl,-Bsymbolic -Wl,--version-script=$(PINDIR)/source/include/pin/pintool.ver -L$(PINDIR)/intel64/lib -L$(PINDIR)/intel64/lib-ext -L$(PINDIR)/intel64/runtime/glibc -L$(PINDIR)/extras/xed-intel64/lib -lpin -lxed -lpindwarf -ldl
+
+
+#BOOST_CPP_FLAGS:="-I../boost_1_48_0-gcc-4.8/install/include"
+#BOOST_LD_FLAGS:=-L../boost_1_48_0-gcc-4.8/install/lib -lboost_serialization -lboost_iostreams -lboost_program_options
+
+BOOST_CPP_FLAGS:=-I../boost_1_48_0-nortti/install/include
+BOOST_LD_FLAGS:=-L../boost_1_48_0-nortti/install/lib -lboost_serialization -lboost_iostreams -lboost_program_options
+
+
+GENERAL_CPP_FLAGS:=-w -I/usr/include/c++/4.4
+
+all: flowStitcher.so
+
+clean: 
+	rm *.o
+	rm flowStitcher.so
+
+
+flowStitcher.so: pinTracer.o argv_readparam.o callgraph.o cfg.o func.o instr.o PinDisasm.o Utilities.o 
+	g++ $^ $(VINE_LDFLAGS) $(PIN_LD_FLAGS) $(BOOST_LD_FLAGS) -o $@
+
+
+%.o: %.cpp
+	g++ $(GENERAL_CPP_FLAGS) $(VEX_CPPFLAGS) $(VINE_CPPFLAGS) $(PIN_CPP_FLAGS) $(BOOST_CPP_FLAGS) $< -c -o $@ 

@@ -1,0 +1,1309 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABSDOM	static/AbsRegion.cpp	11;"	d	file:
+ABSDOM	static/AbsRegion.cpp	31;"	d	file:
+ABSDOMAIN_BOUNDED_STRIDED_INTERVAL_H	static/AbsDomStridedInterval.h	21;"	d
+ABSDOMPTR	static/AbsRegion.cpp	12;"	d	file:
+ABSDOMPTR	static/AbsRegion.cpp	32;"	d	file:
+ABSDOM_REGISTERS_H	static/Registers.h	2;"	d
+ABSREG	static/AbsRegion.cpp	30;"	d	file:
+ABSREG	static/AbsRegion.cpp	6;"	d	file:
+ABSTRACT_DOMAIN_H	static/AbstractDomain.h	2;"	d
+ABSTRACT_INTERPRETER_H	static/AbstractInterpreter.h	7;"	d
+ABSTRACT_REGION_H	static/AbsRegion.h	17;"	d
+ABSTRACT_STATE_H	static/AbsState.h	2;"	d
+AF_REG	static/Registers.h	/^    AF_REG = 0, AH_REG, AL_REG, AX_REG, BH_REG, BL_REG, BP_REG, BX_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+AH_REG	static/Registers.h	/^    AF_REG = 0, AH_REG, AL_REG, AX_REG, BH_REG, BL_REG, BP_REG, BX_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+ALOCP	static/AbsRegion.h	1325;"	d
+ALOCP	static/AbsRegion.h	1367;"	d
+ALOCP	static/AbsRegion.h	1368;"	d
+ALOCP	static/AbsRegion.h	1427;"	d
+AL_REG	static/Registers.h	/^    AF_REG = 0, AH_REG, AL_REG, AX_REG, BH_REG, BL_REG, BP_REG, BX_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+APHash	static/HashFunctions.cpp	/^unsigned int APHash(const std::string& str) {$/;"	f	namespace:utils
+ASSERT_LEVEL	static/RegionTest.cpp	/^int ASSERT_LEVEL = 3;$/;"	v
+ASSERT_LEVEL	static/static.cc	/^int ASSERT_LEVEL = 2;$/;"	v
+AX_REG	static/Registers.h	/^    AF_REG = 0, AH_REG, AL_REG, AX_REG, BH_REG, BL_REG, BP_REG, BX_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+AbsState	static/AbsState.h	/^    AbsState() {}$/;"	f	class:absdomain::AbsState
+AbsState	static/AbsState.h	/^    AbsState(RBTreePtr p) : rbt(p) {}$/;"	f	class:absdomain::AbsState
+AbsState	static/AbsState.h	/^class AbsState : public utils::pt::Counted {$/;"	c	namespace:absdomain
+AbstractDomain	static/AbstractDomain.h	/^    AbstractDomain() {}$/;"	f	class:absdomain::AbstractDomain
+AbstractDomain	static/AbstractDomain.h	/^class AbstractDomain : public utils::pt::Counted {$/;"	c	namespace:absdomain
+AbstractInterpreter	static/AbstractInterpreter.h	/^    AbstractInterpreter() {$/;"	f	class:absinter::AbstractInterpreter
+AbstractInterpreter	static/AbstractInterpreter.h	/^class AbstractInterpreter {$/;"	c	namespace:absinter
+Adr2FunMapTy	cfg.h	/^    typedef std::map<addr_t,functions_t> Adr2FunMapTy;$/;"	t	class:Cfg
+AlocPair	static/AbsRegion.h	/^    typedef std::pair<RegionPtr, TPtr> AlocPair;$/;"	t	class:absdomain::Region
+AlocPair	static/AbsState.h	/^    typedef std::pair<RegionPtr, TPtr> AlocPair;$/;"	t	class:absdomain::AbsState
+AlocPair	static/AbstractInterpreter.h	/^    typedef typename ValSetTy::AlocPair AlocPair;$/;"	t	class:absinter::AbstractInterpreter
+BACK_EDGE	InterProcCFG.h	/^	BACK_EDGE,$/;"	e	enum:InterProcCFG::edge_type
+BASICBLOCK_HEAD	instr.h	44;"	d
+BASICBLOCK_MIDDLE	instr.h	43;"	d
+BASICBLOCK_TAIL	instr.h	45;"	d
+BFD_LDFLAGS	Makefile	/^BFD_LDFLAGS:=-lbfd$/;"	m
+BH_REG	static/Registers.h	/^    AF_REG = 0, AH_REG, AL_REG, AX_REG, BH_REG, BL_REG, BP_REG, BX_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+BKDRHash	static/HashFunctions.cpp	/^unsigned int BKDRHash(const std::string& str) {$/;"	f	namespace:utils
+BL_REG	static/Registers.h	/^    AF_REG = 0, AH_REG, AL_REG, AX_REG, BH_REG, BL_REG, BP_REG, BX_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+BOOSTPTR	static/AbsState.h	175;"	d
+BOOSTPTR	static/AbsState.h	573;"	d
+BOOST_CPP_FLAGS	Makefile	/^BOOST_CPP_FLAGS:="-I..\/boost_1_48_0-gcc-4.8\/install\/include"$/;"	m
+BOOST_LD_FLAGS	Makefile	/^BOOST_LD_FLAGS:=-L..\/boost_1_48_0-gcc-4.8\/install\/lib -lboost_serialization -lboost_iostreams -lboost_program_options$/;"	m
+BOTH	static/AbstractDomain.h	/^    BOTH,$/;"	e	enum:absdomain::splt::SplitTy
+BP_REG	static/Registers.h	/^    AF_REG = 0, AH_REG, AL_REG, AX_REG, BH_REG, BL_REG, BP_REG, BX_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+BX_REG	static/Registers.h	/^    AF_REG = 0, AH_REG, AL_REG, AX_REG, BH_REG, BL_REG, BP_REG, BX_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+BasicBlock	cfg.h	/^    BasicBlock() : address(0), size(0), cfg(0), decoded(false) {} $/;"	f	class:BasicBlock
+BasicBlock	cfg.h	/^    BasicBlock(addr_t a) : address(a), size(0), cfg(0), decoded(false){}$/;"	f	class:BasicBlock
+BasicBlock	cfg.h	/^class BasicBlock {$/;"	c
+BasicBlockEdge	cfg.cpp	/^BasicBlockEdge::BasicBlockEdge(BasicBlock *s, BasicBlock *t) {$/;"	f	class:BasicBlockEdge
+BasicBlockEdge	cfg.h	/^    BasicBlockEdge() {;}$/;"	f	class:BasicBlockEdge
+BasicBlockEdge	cfg.h	/^class BasicBlockEdge {$/;"	c
+BinopExpr	static/AbstractInterpreter.h	/^typedef const vine::BinOp BinopExpr;$/;"	t	namespace:absinter
+CALLSTACK_MAX_DEPTH	callstack.h	10;"	d
+CALL_EDGE	InterProcCFG.h	/^	CALL_EDGE,$/;"	e	enum:InterProcCFG::edge_type
+CALL_TO_RET_EDGE	InterProcCFG.h	/^	CALL_TO_RET_EDGE,$/;"	e	enum:InterProcCFG::edge_type
+CF_REG	static/Registers.h	/^    CF_REG, CH_REG, CL_REG, CS_REG, CX_REG, DF_REG, DH_REG, DI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+CH_REG	static/Registers.h	/^    CF_REG, CH_REG, CL_REG, CS_REG, CX_REG, DF_REG, DH_REG, DI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+CL_REG	static/Registers.h	/^    CF_REG, CH_REG, CL_REG, CS_REG, CX_REG, DF_REG, DH_REG, DI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+CMPSTR	static/AbstractInterpreter.h	459;"	d
+CMPSTR	static/AbstractInterpreter.h	504;"	d
+CONTEXT	static/AbstractInterpreter.h	1002;"	d
+CONTEXT_SENSITIVE_ANALYSIS	static/AbstractInterpreter.h	1000;"	d
+CPLXTYPE	static/AbsRegion.cpp	13;"	d	file:
+CPLXTYPE	static/AbsRegion.cpp	33;"	d	file:
+CPLXTYPE	static/AbsRegion.cpp	35;"	d	file:
+CPLXTYPE	static/AbsRegion.cpp	48;"	d	file:
+CPLXTYPE	static/AbsRegion.cpp	49;"	d	file:
+CPLXTYPE	static/AbsRegion.cpp	62;"	d	file:
+CS_REG	static/Registers.h	/^    CF_REG, CH_REG, CL_REG, CS_REG, CX_REG, DF_REG, DH_REG, DI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+CX_REG	static/Registers.h	/^    CF_REG, CH_REG, CL_REG, CS_REG, CX_REG, DF_REG, DH_REG, DI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+CacheTy	static/AbstractDomain.h	/^    typedef utils::Multimap<int, DomainPtr>  CacheTy;$/;"	t	class:absdomain::AbstractDomain
+CallGraph	callgraph.h	/^    CallGraph() { main = NULL; }$/;"	f	class:CallGraph
+CallGraph	callgraph.h	/^class CallGraph : public Graph<Function *, CallGraphEdge *> {$/;"	c
+CallGraphEdge	callgraph.h	/^    CallGraphEdge() {;}$/;"	f	class:CallGraphEdge
+CallGraphEdge	callgraph.h	/^    CallGraphEdge(Function *s, Function *t) {$/;"	f	class:CallGraphEdge
+CallGraphEdge	callgraph.h	/^class CallGraphEdge {$/;"	c
+CallInstr	static/AbstractInterpreter.h	/^typedef const vine::Call CallInstr;$/;"	t	namespace:absinter
+CastExpr	static/AbstractInterpreter.h	/^typedef const vine::Cast CastExpr;$/;"	t	namespace:absinter
+Cfg	cfg.h	/^    Cfg(Function *f = NULL) : entry(NULL), function(f), decoded(false),$/;"	f	class:Cfg
+Cfg	cfg.h	/^class Cfg : public Graph<BasicBlock *, BasicBlockEdge *> {$/;"	c
+Cmp	Utilities.h	/^struct Cmp {$/;"	s	namespace:utils
+Cmp	static/AbsDomStridedInterval.h	/^template <> struct Cmp<absdomain::StridedIntervalPtr> {$/;"	s	namespace:utils
+Cmp	static/AbsRegion.h	/^struct Cmp<ALOCP > {$/;"	s	namespace:utils
+Cmp	static/AbsRegion.h	/^struct Cmp<REGION > {$/;"	s	namespace:utils
+ConstExpr	static/AbstractInterpreter.h	/^typedef const vine::Constant ConstExpr;$/;"	t	namespace:absinter
+ContentPair	static/AbsRegion.h	/^    typedef std::pair<TPtr, VSetPtr> ContentPair;$/;"	t	class:absdomain::Region
+ContentPair	static/RegionTest.cpp	/^typedef std::pair<StridedIntervalPtr, VSetPtr> ContentPair;$/;"	t	file:
+ContentVector	static/AbsRegion.h	/^    typedef typename std::vector<ContentPair> ContentVector;$/;"	t	class:absdomain::Region
+CtxBBTy	static/AbstractInterpreter.h	/^    typedef std::map<ContextPtr, BasicBlock *> CtxBBTy;$/;"	t	class:absinter::AbstractInterpreter
+DBHash	static/HashFunctions.cpp	/^unsigned int DBHash(const std::string &str) {$/;"	f	namespace:utils
+DEBUG_FILE	pinTracer.cpp	/^FILE *DEBUG_FILE = NULL;$/;"	v
+DEBUG_FILE	static/RegionTest.cpp	/^FILE* DEBUG_FILE = stderr;$/;"	v
+DEBUG_FILE	static/static.cc	/^FILE *DEBUG_FILE = stderr;$/;"	v
+DEBUG_LEVEL	pinTracer.cpp	/^int DEBUG_LEVEL = 0;$/;"	v
+DEBUG_LEVEL	static/RegionTest.cpp	/^int DEBUG_LEVEL = 2;$/;"	v
+DEBUG_LEVEL	static/static.cc	/^int DEBUG_LEVEL = 0;$/;"	v
+DEKHash	static/HashFunctions.cpp	/^unsigned int DEKHash(const std::string& str) {$/;"	f	namespace:utils
+DELEGATE	static/AbstractInterpreter.h	154;"	d
+DELEGATE	static/AbstractInterpreter.h	165;"	d
+DELEGATE	static/AbstractInterpreter.h	166;"	d
+DELEGATE	static/AbstractInterpreter.h	190;"	d
+DELEGATE	static/AbstractInterpreter.h	225;"	d
+DELEGATE	static/AbstractInterpreter.h	274;"	d
+DELEGATE	static/AbstractInterpreter.h	284;"	d
+DELEGATE	static/AbstractInterpreter.h	320;"	d
+DF_REG	static/Registers.h	/^    CF_REG, CH_REG, CL_REG, CS_REG, CX_REG, DF_REG, DH_REG, DI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+DH_REG	static/Registers.h	/^    CF_REG, CH_REG, CL_REG, CS_REG, CX_REG, DF_REG, DH_REG, DI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+DISTANCE_INFINITY	InterProcCFG.cc	32;"	d	file:
+DI_REG	static/Registers.h	/^    CF_REG, CH_REG, CL_REG, CS_REG, CX_REG, DF_REG, DH_REG, DI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+DJBHash	static/HashFunctions.cpp	/^unsigned int DJBHash(const std::string& str) {$/;"	f	namespace:utils
+DL_REG	static/Registers.h	/^    DL_REG, DS_REG, DX_REG, EAX_REG, EBP_REG, EBX_REG, ECX_REG, EDI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+DS_REG	static/Registers.h	/^    DL_REG, DS_REG, DX_REG, EAX_REG, EBP_REG, EBX_REG, ECX_REG, EDI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+DX_REG	static/Registers.h	/^    DL_REG, DS_REG, DX_REG, EAX_REG, EBP_REG, EBX_REG, ECX_REG, EDI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+Domain	static/static.cc	/^typedef absdomain::StridedInterval Domain;$/;"	t	file:
+DomainPtr	static/AbstractDomain.h	/^    typedef typename boost::intrusive_ptr<T> DomainPtr;$/;"	t	class:absdomain::AbstractDomain
+DomainPtrVec	static/AbstractDomain.h	/^    typedef std::vector<DomainPtr> DomainPtrVec;$/;"	t	class:absdomain::AbstractDomain
+DomainSplitVec	static/AbstractDomain.h	/^        DomainSplitVec;$/;"	t	class:absdomain::AbstractDomain
+EAX_REG	static/Registers.h	/^    DL_REG, DS_REG, DX_REG, EAX_REG, EBP_REG, EBX_REG, ECX_REG, EDI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+EBP_REG	static/Registers.h	/^    DL_REG, DS_REG, DX_REG, EAX_REG, EBP_REG, EBX_REG, ECX_REG, EDI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+EBX_REG	static/Registers.h	/^    DL_REG, DS_REG, DX_REG, EAX_REG, EBP_REG, EBX_REG, ECX_REG, EDI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+ECX_REG	static/Registers.h	/^    DL_REG, DS_REG, DX_REG, EAX_REG, EBP_REG, EBX_REG, ECX_REG, EDI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+EDI_REG	static/Registers.h	/^    DL_REG, DS_REG, DX_REG, EAX_REG, EBP_REG, EBX_REG, ECX_REG, EDI_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+EDX_REG	static/Registers.h	/^    EDX_REG, ES_REG, ESI_REG, ESP_REG, FS_REG, GDT_REG, GS_REG, LDT_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+ELFHash	static/HashFunctions.cpp	/^unsigned int ELFHash(const std::string& str) {$/;"	f	namespace:utils
+ESI_REG	static/Registers.h	/^    EDX_REG, ES_REG, ESI_REG, ESP_REG, FS_REG, GDT_REG, GS_REG, LDT_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+ESP_REG	static/Registers.h	/^    EDX_REG, ES_REG, ESI_REG, ESP_REG, FS_REG, GDT_REG, GS_REG, LDT_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+ES_REG	static/Registers.h	/^    EDX_REG, ES_REG, ESI_REG, ESP_REG, FS_REG, GDT_REG, GS_REG, LDT_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+Equal	Utilities.h	/^struct Equal {$/;"	s	namespace:utils
+Equal	static/AbsRegion.h	/^struct Equal<ALOCP > {$/;"	s	namespace:utils
+Equal	static/AbsRegion.h	/^struct Equal<REGION > {$/;"	s	namespace:utils
+Expression	static/AbstractInterpreter.h	/^typedef const vine::Exp Expression;$/;"	t	namespace:absinter
+FCMP	static/AbstractInterpreter.h	448;"	d
+FCMP	static/AbstractInterpreter.h	453;"	d
+FIRST	static/AbstractDomain.h	/^    FIRST = 0,$/;"	e	enum:absdomain::splt::SplitTy
+FNV_OFFSET_32	instr.cpp	99;"	d	file:
+FNV_PRIME_32	instr.cpp	98;"	d	file:
+FS_REG	static/Registers.h	/^    EDX_REG, ES_REG, ESI_REG, ESP_REG, FS_REG, GDT_REG, GS_REG, LDT_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+FUZZBALL_BASEDIR	Makefile	/^FUZZBALL_BASEDIR:=..\/fuzzball$/;"	m
+Function	func.cpp	/^Function::Function(addr_t a) {$/;"	f	class:Function
+Function	func.cpp	/^Function::Function(std::string n, addr_t a, size_t l, std::string m) {$/;"	f	class:Function
+Function	func.h	/^    Function() {argumentsno = -1; cfg = NULL; pending = false; prog = NULL;}$/;"	f	class:Function
+Function	func.h	/^class Function {$/;"	c
+G1_ADDR	InterProcCFG.cc	34;"	d	file:
+G2_ADDR	InterProcCFG.cc	33;"	d	file:
+GDT_REG	static/Registers.h	/^    EDX_REG, ES_REG, ESI_REG, ESP_REG, FS_REG, GDT_REG, GS_REG, LDT_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+GENERAL_CPP_FLAGS	Makefile	/^GENERAL_CPP_FLAGS:=-w -I\/usr\/include\/c++\/4.4 -fPIC$/;"	m
+GS_REG	static/Registers.h	/^    EDX_REG, ES_REG, ESI_REG, ESP_REG, FS_REG, GDT_REG, GS_REG, LDT_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+Graph	graph.h	/^    Graph() {$/;"	f	class:Graph
+Graph	graph.h	/^class Graph {$/;"	c
+Hash	Utilities.h	/^struct Hash {$/;"	s	namespace:utils
+Hash	Utilities.h	/^struct Hash<const T *const> {$/;"	s	namespace:utils
+Hash	static/AbsDomStridedInterval.h	/^template <> struct Hash<absdomain::StridedIntervalPtr> {$/;"	s	namespace:utils
+Hash	static/AbsRegion.h	/^struct Hash<ALOCP > {$/;"	s	namespace:utils
+Hash	static/AbsRegion.h	/^struct Hash<REGION > {$/;"	s	namespace:utils
+INTERPROCEDURAL_CONTEXT_SENSITIVE_ANALYSIS	static/AbstractInterpreter.h	334;"	d
+INTRA_EDGE	InterProcCFG.h	/^	INTRA_EDGE,$/;"	e	enum:InterProcCFG::edge_type
+IPCFGEdge	InterProcCFG.h	/^    typedef graph_traits<IPCFGraph>::edge_descriptor IPCFGEdge;$/;"	t	class:InterProcCFG
+IPCFGNode	InterProcCFG.h	/^    typedef graph_traits<IPCFGraph>::vertex_descriptor IPCFGNode;$/;"	t	class:InterProcCFG
+IPCFGraph	InterProcCFG.h	/^	IPCFGraph;$/;"	t	class:InterProcCFG
+IS_G1	InterProcCFG.cc	35;"	d	file:
+IS_G2	InterProcCFG.cc	36;"	d	file:
+Instruction	instr.cpp	/^Instruction::Instruction() {$/;"	f	class:Instruction
+Instruction	instr.cpp	/^Instruction::Instruction(addr_t a, byte_t *b, size_t s) {$/;"	f	class:Instruction
+Instruction	instr.h	/^class Instruction {$/;"	c
+InterProcCFG	InterProcCFG.cc	/^InterProcCFG::InterProcCFG(map<addr_t, Function *> &functions)$/;"	f	class:InterProcCFG
+InterProcCFG	InterProcCFG.h	/^    InterProcCFG() {};$/;"	f	class:InterProcCFG
+InterProcCFG	InterProcCFG.h	/^class InterProcCFG {$/;"	c
+Interpreter	static/static.cc	/^typedef absinter::VSAInterpreter<Domain> Interpreter;$/;"	t	file:
+IntraProcCFG	InterProcCFG.cc	/^IntraProcCFG::IntraProcCFG(Function *f) {$/;"	f	class:IntraProcCFG
+IntraProcCFG	InterProcCFG.h	/^class IntraProcCFG : public InterProcCFG {$/;"	c
+JSHash	static/HashFunctions.cpp	/^unsigned int JSHash(const std::string& str) {$/;"	f	namespace:utils
+LDT_REG	static/Registers.h	/^    EDX_REG, ES_REG, ESI_REG, ESP_REG, FS_REG, GDT_REG, GS_REG, LDT_REG,$/;"	e	enum:absdomain::reg::RegEnumTy
+LessOrEqual	static/AbsRegion.h	/^    struct LessOrEqual {$/;"	s	class:absdomain::Region
+MAGICFOO	static/static.cc	254;"	d	file:
+MAGICFOO	static/static.cc	256;"	d	file:
+MAXITER	static/RegionTest.cpp	7;"	d	file:
+MAX_INSTR_LEN	instr.h	52;"	d
+MULongHash	static/HashFunctions.cpp	/^int64_t MULongHash (const int64_t key) {$/;"	f	namespace:utils
+Map	Utilities.h	/^class Map : public std::tr1::unordered_map<K,T> {$/;"	c	namespace:utils
+Max	Utilities.h	/^struct Max {$/;"	s	namespace:utils
+Max	static/AbsDomStridedInterval.h	/^template <> struct Max<absdomain::StridedIntervalPtr> {$/;"	s	namespace:utils
+Max	static/AbsRegion.h	/^struct Max<ALOCP > {$/;"	s	namespace:utils
+MemExpr	static/AbstractInterpreter.h	/^typedef const vine::Mem MemExpr;$/;"	t	namespace:absinter
+MemMap	static/AbsRegion.h	/^    typedef memmap::MemMap MemMap;$/;"	t	class:absdomain::Region
+Module	prog.h	/^    Module() {;}$/;"	f	class:Module
+Module	prog.h	/^    Module(addr_t a, size_t s, const char *n, bool m) {$/;"	f	class:Module
+Module	prog.h	/^class Module {$/;"	c
+MoveInstr	static/AbstractInterpreter.h	/^typedef const vine::Move MoveInstr;$/;"	t	namespace:absinter
+Multimap	Utilities.h	/^class Multimap : public std::tr1::unordered_multimap<K,T> {$/;"	c	namespace:utils
+NARGV_PTRS_DEFAULT	prog.h	13;"	d
+NARGV_STRLEN_DEFAULT	prog.h	14;"	d
+NONE	static/AbstractDomain.h	/^    NONE,$/;"	e	enum:absdomain::splt::SplitTy
+OF_REG	static/Registers.h	/^    OF_REG, PF_REG, SF_REG, SI_REG, SP_REG, SS_REG, ZF_REG, TERM_REG$/;"	e	enum:absdomain::reg::RegEnumTy
+Overlap	Utilities.h	/^struct Overlap {$/;"	s	namespace:utils
+Overlap	static/AbsDomStridedInterval.h	/^template <> struct Overlap<absdomain::StridedIntervalPtr> {$/;"	s	namespace:utils
+Overlap	static/AbsRegion.h	/^struct Overlap<ALOCP > {$/;"	s	namespace:utils
+PF_REG	static/Registers.h	/^    OF_REG, PF_REG, SF_REG, SI_REG, SP_REG, SS_REG, ZF_REG, TERM_REG$/;"	e	enum:absdomain::reg::RegEnumTy
+PINDIR	Makefile	/^PINDIR:=..\/pin-2.14-71313-gcc.4.4.7-linux$/;"	m
+PIN_CPP_FLAGS	Makefile	/^PIN_CPP_FLAGS:=-DBIGARRAY_MULTIPLIER=1 -Wall -Werror -Wno-unknown-pragmas -fno-stack-protector -DTARGET_IA32E -DHOST_IA32E -DTARGET_LINUX  -I$(PINDIR)\/source\/include\/pin -I$(PINDIR)\/source\/include\/pin\/gen -I$(PINDIR)\/extras\/components\/include -I$(PINDIR)\/extras\/xed-intel64\/include -I$(PINDIR)\/source\/tools\/InstLib -O3 -fomit-frame-pointer -fno-strict-aliasing$/;"	m
+PIN_LD_FLAGS	Makefile	/^PIN_LD_FLAGS:=-shared -Wl,--hash-style=sysv -Wl,-Bsymbolic -Wl,--version-script=$(PINDIR)\/source\/include\/pin\/pintool.ver -L$(PINDIR)\/intel64\/lib -L$(PINDIR)\/intel64\/lib-ext -L$(PINDIR)\/intel64\/runtime\/glibc -L$(PINDIR)\/extras\/xed-intel64\/lib -lpin -lxed -lpindwarf -ldl$/;"	m
+PJWDBHash	static/HashFunctions.cpp	/^int64_t PJWDBHash(const std::string& str) {$/;"	f	namespace:utils
+PJWHash	static/HashFunctions.cpp	/^unsigned int PJWHash(const std::string& str) {$/;"	f	namespace:utils
+PairVector	static/AbsRegion.h	/^        PairVector;$/;"	t	class:absdomain::Region
+Prog	prog.h	/^    Prog() {;}$/;"	f	class:Prog
+Prog	prog.h	/^class Prog {$/;"	c
+RBTree	static/AbsRegion.h	/^    typedef typename utils::RedBlackTree<ContentPair> RBTree;$/;"	t	class:absdomain::Region
+RBTree	static/AbsState.h	/^    typedef typename utils::RedBlackTree<RegionPtr> RBTree;$/;"	t	class:absdomain::AbsState
+RBTreePtr	static/AbsRegion.h	/^    typedef typename RBTree::RedBlackTreePtr RBTreePtr;$/;"	t	class:absdomain::Region
+RBTreePtr	static/AbsState.h	/^    typedef typename boost::intrusive_ptr<RBTree> RBTreePtr;$/;"	t	class:absdomain::AbsState
+REGION	static/AbsRegion.h	1290;"	d
+REGION	static/AbsRegion.h	1324;"	d
+RETURN_EDGE	InterProcCFG.h	/^	RETURN_EDGE,$/;"	e	enum:InterProcCFG::edge_type
+RJHash	static/HashFunctions.cpp	/^unsigned int RJHash (const unsigned int key) {$/;"	f	namespace:utils
+RNDLIMIT	static/RegionTest.cpp	8;"	d	file:
+RSHash	static/HashFunctions.cpp	/^unsigned int RSHash(const std::string& str) {$/;"	f	namespace:utils
+RegEnumTy	static/Registers.h	/^enum RegEnumTy {$/;"	g	namespace:absdomain::reg
+Region	static/AbsRegion.h	/^    Region(const Region& r) : rbt(r.rbt), size(r.size), id(r.id),$/;"	f	class:absdomain::Region
+Region	static/AbsRegion.h	/^    Region(const Region& r, RBTreePtr p) : rbt(p), size(r.size),$/;"	f	class:absdomain::Region
+Region	static/AbsRegion.h	/^    Region(const Region& r, rg::RegionTy ty) : rbt(r.rbt), size(r.size),$/;"	f	class:absdomain::Region
+Region	static/AbsRegion.h	/^    Region(rg::RegionTy ty, int i, StridedIntervalPtr size) :$/;"	f	class:absdomain::Region
+Region	static/AbsRegion.h	/^class Region : public utils::pt::Counted {$/;"	c	namespace:absdomain
+Region	static/static.cc	/^typedef absdomain::Region<Domain> Region;$/;"	t	file:
+RegionPtr	static/AbsRegion.h	/^    typedef typename boost::intrusive_ptr<_Self> RegionPtr;$/;"	t	class:absdomain::Region
+RegionPtr	static/AbsState.h	/^    typedef typename boost::intrusive_ptr<Region<T> > RegionPtr;$/;"	t	class:absdomain::AbsState
+RegionPtr	static/AbstractInterpreter.h	/^    typedef typename StateTy::RegionPtr RegionPtr;$/;"	t	class:absinter::AbstractInterpreter
+RegionPtr	static/RegionTest.cpp	/^typedef boost::intrusive_ptr<RegionTy> RegionPtr;$/;"	t	file:
+RegionPtr	static/static.cc	/^typedef Region::RegionPtr RegionPtr;$/;"	t	file:
+RegionTy	static/RegionTest.cpp	/^typedef Region<StridedInterval> RegionTy;$/;"	t	file:
+RegionType	static/AbsState.h	/^    typedef typename absdomain::Region<T> RegionType;$/;"	t	class:absdomain::AbsState
+RegionVecTy	static/AbsState.h	/^    typedef std::vector<RegionPtr> RegionVecTy;$/;"	t	class:absdomain::AbsState
+RegionVecTy	static/AbstractInterpreter.h	/^    typedef typename StateTy::RegionVecTy RegionVecTy;$/;"	t	class:absinter::AbstractInterpreter
+ReturnInstr	static/AbstractInterpreter.h	/^typedef const vine::Return ReturnInstr;$/;"	t	namespace:absinter
+SDBMHash	static/HashFunctions.cpp	/^unsigned int SDBMHash(const std::string& str) {$/;"	f	namespace:utils
+SECOND	static/AbstractDomain.h	/^    SECOND,$/;"	e	enum:absdomain::splt::SplitTy
+SF_REG	static/Registers.h	/^    OF_REG, PF_REG, SF_REG, SI_REG, SP_REG, SS_REG, ZF_REG, TERM_REG$/;"	e	enum:absdomain::reg::RegEnumTy
+SIPNVector	static/AbsDomStridedInterval.h	/^        SIPNVector;$/;"	t	class:absdomain::StridedInterval
+SIPtrVector	static/AbsDomStridedInterval.h	/^    typedef std::vector<StridedIntervalPtr> SIPtrVector;$/;"	t	class:absdomain::StridedInterval
+SI_REG	static/Registers.h	/^    OF_REG, PF_REG, SF_REG, SI_REG, SP_REG, SS_REG, ZF_REG, TERM_REG$/;"	e	enum:absdomain::reg::RegEnumTy
+SP_REG	static/Registers.h	/^    OF_REG, PF_REG, SF_REG, SI_REG, SP_REG, SS_REG, ZF_REG, TERM_REG$/;"	e	enum:absdomain::reg::RegEnumTy
+SS_REG	static/Registers.h	/^    OF_REG, PF_REG, SF_REG, SI_REG, SP_REG, SS_REG, ZF_REG, TERM_REG$/;"	e	enum:absdomain::reg::RegEnumTy
+STRDLIMIT	static/RegionTest.cpp	9;"	d	file:
+Section	prog.h	/^    Section() {;}$/;"	f	class:Section
+Section	prog.h	/^    Section(addr_t a, byte_t * b, size_t s, unsigned int f, const char *n) {$/;"	f	class:Section
+Section	prog.h	/^class Section {$/;"	c
+SizeOfLongLong	static/HashFunctions.cpp	/^const int SizeOfLongLong = sizeof(int64_t) * CHAR_BIT;$/;"	m	namespace:utils	file:
+SizeOfUnsigned	static/HashFunctions.cpp	/^const int SizeOfUnsigned = sizeof(unsigned int) * CHAR_BIT;$/;"	m	namespace:utils	file:
+SplitTy	static/AbstractDomain.h	/^enum SplitTy {$/;"	g	namespace:absdomain::splt
+StackDepthMapTy	static/AbstractInterpreter.h	/^    typedef utils::Map<CallInstr*, int> StackDepthMapTy;$/;"	t	class:absinter::AbstractInterpreter
+State	static/static.cc	/^typedef absdomain::AbsState<Domain> State;$/;"	t	file:
+StatePtr	static/AbsState.h	/^    typedef boost::intrusive_ptr<_Self> StatePtr;$/;"	t	class:absdomain::AbsState
+StatePtr	static/AbstractInterpreter.h	/^    typedef typename StateTy::StatePtr StatePtr;$/;"	t	class:absinter::AbstractInterpreter
+StatePtr	static/static.cc	/^typedef State::StatePtr StatePtr;$/;"	t	file:
+StateVectorTy	static/AbsState.h	/^    typedef std::vector<StatePtr> StateVectorTy;$/;"	t	class:absdomain::AbsState
+StateVectorTy	static/AbstractInterpreter.h	/^    typedef typename std::vector<StatePtr> StateVectorTy;$/;"	t	class:absinter::AbstractInterpreter
+Statement	static/AbstractInterpreter.h	/^typedef const vine::Stmt Statement;$/;"	t	namespace:absinter
+StridedInterval	static/AbsDomStridedInterval.cpp	/^StridedInterval::StridedInterval(int low, int high, unsigned stride) :$/;"	f	class:StridedInterval
+StridedInterval	static/AbsDomStridedInterval.h	/^    StridedInterval(const StridedInterval& i) :$/;"	f	class:absdomain::StridedInterval
+StridedInterval	static/AbsDomStridedInterval.h	/^class StridedInterval : public AbstractDomain<StridedInterval> {$/;"	c	namespace:absdomain
+StridedIntervalPtr	static/AbsDomStridedInterval.h	/^typedef boost::intrusive_ptr<StridedInterval> StridedIntervalPtr;$/;"	t	namespace:absdomain
+TERMINATOR	static/AbstractDomain.h	/^    TERMINATOR$/;"	e	enum:absdomain::splt::SplitTy
+TERM_REG	static/Registers.h	/^    OF_REG, PF_REG, SF_REG, SI_REG, SP_REG, SS_REG, ZF_REG, TERM_REG$/;"	e	enum:absdomain::reg::RegEnumTy
+TPtr	static/AbsRegion.h	/^    typedef boost::intrusive_ptr<T> TPtr;$/;"	t	class:absdomain::Region
+TPtr	static/AbsState.h	/^    typedef typename boost::intrusive_ptr<T> TPtr;$/;"	t	class:absdomain::AbsState
+TWHash	static/HashFunctions.cpp	/^unsigned int TWHash (const unsigned int key) {$/;"	f	namespace:utils
+TWLongHash	static/HashFunctions.cpp	/^int64_t TWLongHash (const int64_t key) {$/;"	f	namespace:utils
+TempExpr	static/AbstractInterpreter.h	/^typedef const vine::Temp TempExpr;$/;"	t	namespace:absinter
+TempMapTy	static/AbstractInterpreter.h	/^    typedef utils::Map<std::string, VSetPtr> TempMapTy;$/;"	t	class:absinter::AbstractInterpreter
+UTILITIES_H	Utilities.h	2;"	d
+UTILS_HASH_FUNCTIONS	static/HashFunctions.h	6;"	d
+UnopExpr	static/AbstractInterpreter.h	/^typedef const vine::UnOp UnopExpr;$/;"	t	namespace:absinter
+VEXDIR	Makefile	/^VEXDIR:=$(FUZZBALL_BASEDIR)\/vex-r2737$/;"	m
+VEX_CPPFLAGS	Makefile	/^VEX_CPPFLAGS:=-I$(VEXDIR)\/pub$/;"	m
+VEX_LDFLAGS	Makefile	/^VEX_LDFLAGS:=-L\/ext4-384G\/Experiments\/real-world-ExpGen\/flow-stitch\/fuzzball\/vex-r2737 -lvex$/;"	m
+VINEDIR	Makefile	/^VINEDIR:=$(FUZZBALL_BASEDIR)\/fuzzball\/libasmir$/;"	m
+VINE_CPPFLAGS	Makefile	/^VINE_CPPFLAGS:=-I$(VINEDIR)\/src\/include -I$(VINEDIR)$/;"	m
+VINE_LDFLAGS	Makefile	/^VINE_LDFLAGS:=$(VINEDIR)\/src\/libasmir.a -lopcodes -lz$/;"	m
+VSetPtr	static/AbsRegion.h	/^    typedef typename ValueSet<T>::VSetPtr VSetPtr;$/;"	t	class:absdomain::Region
+VSetPtr	static/AbsState.h	/^    typedef boost::intrusive_ptr<ValSetTy> VSetPtr;$/;"	t	class:absdomain::AbsState
+VSetPtr	static/AbstractInterpreter.h	/^    typedef typename ValSetTy::VSetPtr VSetPtr;$/;"	t	class:absinter::AbstractInterpreter
+VSetPtr	static/RegionTest.cpp	/^typedef boost::intrusive_ptr<ValSet> VSetPtr;$/;"	t	file:
+ValSet	static/RegionTest.cpp	/^typedef ValueSet<StridedInterval> ValSet;$/;"	t	file:
+ValSetTy	static/AbsState.h	/^    typedef ValueSet<T> ValSetTy;$/;"	t	class:absdomain::AbsState
+VarDeclInstr	static/AbstractInterpreter.h	/^typedef const vine::VarDecl VarDeclInstr;$/;"	t	namespace:absinter
+WTO	bourdoncle_wto.h	/^    WTO() {;}$/;"	f	class:WTO
+WTO	bourdoncle_wto.h	/^class WTO {$/;"	c
+ZF_REG	static/Registers.h	/^    OF_REG, PF_REG, SF_REG, SI_REG, SP_REG, SS_REG, ZF_REG, TERM_REG$/;"	e	enum:absdomain::reg::RegEnumTy
+_ARGV_READPARAM_H_	argv_readparam.h	32;"	d
+_Base	Utilities.h	/^    typedef typename std::tr1::unordered_map<K,T> _Base;$/;"	t	class:utils::Map
+_Base	Utilities.h	/^    typedef typename std::tr1::unordered_multimap<K,T> _Base;$/;"	t	class:utils::Multimap
+_Self	bourdoncle_wto.h	/^        typedef const_iterator        _Self;$/;"	t	class:WTO::const_iterator
+_Self	bourdoncle_wto.h	/^        typedef const_reverse_iterator        _Self;$/;"	t	class:WTO::const_reverse_iterator
+_Self	graph.h	/^        typedef const_edge_iterator        _Self;$/;"	t	class:Graph::const_edge_iterator
+_Self	graph.h	/^        typedef const_pred_iterator        _Self;$/;"	t	class:Graph::const_pred_iterator
+_Self	graph.h	/^        typedef const_succ_iterator        _Self;$/;"	t	class:Graph::const_succ_iterator
+_Self	graph.h	/^        typedef const_vertex_iterator        _Self;$/;"	t	class:Graph::const_vertex_iterator
+_Self	static/AbsDomStridedInterval.h	/^    typedef StridedInterval _Self;$/;"	t	class:absdomain::StridedInterval
+_Self	static/AbsRegion.h	/^    typedef Region<T> _Self;$/;"	t	class:absdomain::Region
+_Self	static/AbsState.h	/^    typedef AbsState<T> _Self;$/;"	t	class:absdomain::AbsState
+__CALLGRAPH_H__	callgraph.h	2;"	d
+__CALLSTACK_H__	callstack.h	2;"	d
+__CFG_H__	cfg.h	2;"	d
+__DATAFLOW_H__	dataflow.h	2;"	d
+__DEBUG_FILE__	debug.h	13;"	d
+__DEBUG_H__	debug.h	2;"	d
+__FUNC_H__	func.h	2;"	d
+__GRAPH_H__	graph.h	2;"	d
+__INSTR_H__	instr.h	2;"	d
+__PIN_DISASM_H__	PinDisasm.h	2;"	d
+__PROG_H__	prog.h	2;"	d
+__SERIALIZE_H__	serialize.h	2;"	d
+__TYPES_H__	types.h	2;"	d
+__assert__	debug.h	48;"	d
+__assert__	debug.h	55;"	d
+__assert_msg__	debug.h	77;"	d
+__assert_msg__	debug.h	86;"	d
+__callstack	callstack.h	/^static callstack_t __callstack[CALLSTACK_MAX_DEPTH];$/;"	v
+__callstack_depth	callstack.h	/^static int __callstack_depth = 0;$/;"	v
+__debug__	debug.h	23;"	d
+__enter_function	static/static.cc	/^void __enter_function(addr_t caller, const std::string name) {$/;"	f
+__exit_function	static/static.cc	/^void __exit_function() {$/;"	f
+__warning	static/RegionTest.cpp	/^void __warning(addr_t, addr_t) {;}$/;"	f
+__warning	static/static.cc	/^void __warning(addr_t last, addr_t last_not_lib) {$/;"	f
+absdomain	static/AbsDomStridedInterval.h	/^namespace absdomain {$/;"	n
+absdomain	static/AbsRegion.h	/^namespace absdomain {$/;"	n
+absdomain	static/AbsState.h	/^namespace absdomain {$/;"	n
+absdomain	static/AbstractDomain.h	/^namespace absdomain {$/;"	n
+absdomain	static/Registers.cpp	/^namespace absdomain {$/;"	n	file:
+absdomain	static/Registers.h	/^namespace absdomain {$/;"	n
+absi	static/static.cc	/^Interpreter *absi = 0;$/;"	v
+absinter	static/AbstractInterpreter.h	/^namespace absinter {$/;"	n
+add	bourdoncle_wto.h	/^    void add(V v, int c) {$/;"	f	class:WTO
+addBasicBlock	cfg.cpp	/^BasicBlock *Cfg::addBasicBlock(addr_t addr) {$/;"	f	class:Cfg
+addCall	callgraph.cpp	/^void CallGraph::addCall(Function *caller, Function *callee) {$/;"	f	class:CallGraph
+addCall	cfg.cpp	/^void Cfg::addCall(addr_t caller, Function *callee) {$/;"	f	class:Cfg
+addEdge	graph.h	/^    bool addEdge(const vertex_descriptor vd1, $/;"	f	class:Graph
+addEdge	graph.h	/^    bool addEdge(const vertex_t v1, const vertex_t v2, const edge_t e) {$/;"	f	class:Graph
+addInstruction	cfg.cpp	/^bool Cfg::addInstruction( addr_t   addr, $/;"	f	class:Cfg
+addInstruction	cfg.cpp	/^void BasicBlock::addInstruction(Instruction *i) {$/;"	f	class:BasicBlock
+addModule	prog.h	/^    void addModule(addr_t a, size_t s, const char *n, bool m) {$/;"	f	class:Prog
+addNewRegion	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::addNewRegion(rg::RegionTy ty) {$/;"	f	class:absdomain::AbsState
+addNewRegion	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::addNewRegion(rg::RegionTy ty, TPtr size) {$/;"	f	class:absdomain::AbsState
+addSection	prog.h	/^    void addSection(addr_t a, byte_t * b, size_t s, unsigned int f, $/;"	f	class:Prog
+addStack	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::addStack(RegionPtr stack) {$/;"	f	class:absdomain::AbsState
+addVertex	graph.h	/^    vertex_descriptor addVertex(const vertex_t v) {$/;"	f	class:Graph
+add_call_ret_edges_to_g1_and_g2	InterProcCFG.cc	/^void InterProcCFG::add_call_ret_edges_to_g1_and_g2( costmap                 & costs,$/;"	f	class:InterProcCFG
+add_calls_costs_to_edges	InterProcCFG.cc	/^void IntraProcCFG::add_calls_costs_to_edges(costmap &costs) {$/;"	f	class:IntraProcCFG
+addr2bb	cfg.h	/^    std::map<addr_t, BasicBlock *> addr2bb;$/;"	m	class:Cfg
+addr2func	callgraph.h	/^    std::map<addr_t, Function *> addr2func;$/;"	m	class:CallGraph
+addr_t	types.h	/^typedef uint64_t      addr_t;$/;"	t
+address	cfg.h	/^    addr_t            address;$/;"	m	class:BasicBlock
+address	func.h	/^    addr_t       address;$/;"	m	class:Function
+address	instr.h	/^    addr_t   address;$/;"	m	class:Instruction
+address	prog.h	/^    addr_t address;$/;"	m	class:Module
+address	prog.h	/^    addr_t address;$/;"	m	class:Section
+adjacency_iterator	graph.h	/^    typedef typename boost::graph_traits<graph_t>::adjacency_iterator adjacency_iterator;$/;"	t	class:Graph
+adjacency_vertex_range_t	graph.h	/^    typedef std::pair<adjacency_iterator, adjacency_iterator> adjacency_vertex_range_t;$/;"	t	class:Graph
+adjacent	static/AbsDomStridedInterval.h	/^    bool adjacent(const StridedInterval& i) const {$/;"	f	class:absdomain::StridedInterval
+adr2fun_const_iterator	cfg.h	/^    typedef Adr2FunMapTy::const_iterator adr2fun_const_iterator;$/;"	t	class:Cfg
+ai_distinct	static/AbsDomStridedInterval.h	/^    bool ai_distinct(const StridedInterval& i) const {$/;"	f	class:absdomain::StridedInterval
+ai_equal	static/AbsDomStridedInterval.h	/^    bool ai_equal(const StridedInterval& i) const {$/;"	f	class:absdomain::StridedInterval
+allocated	prog.h	/^    bool allocated;$/;"	m	class:Section
+argumentsno	func.h	/^    int          argumentsno;$/;"	m	class:Function
+argv_getInt	argv_readparam.cpp	/^argv_getInt(int argc, char *argv[], char *param, int *ret)$/;"	f
+argv_getLong	argv_readparam.cpp	/^argv_getLong(int argc, char** argv, char *param, long *ret)$/;"	f
+argv_getString	argv_readparam.cpp	/^argv_getString(int argc, char * argv[], char const * param, char **mem)$/;"	f
+argv_hasFlag	argv_readparam.cpp	/^argv_hasFlag(int argc, char *argv[], char param)$/;"	f
+argv_hasLongFlag	argv_readparam.cpp	/^argv_hasLongFlag(int argc, char *argv[], char *param)$/;"	f
+arshift	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::arshift(StridedInterval& i) {$/;"	f	class:StridedInterval
+assert	debug.h	106;"	d
+assert	debug.h	107;"	d
+assert	debug.h	60;"	d
+assert	debug.h	61;"	d
+assert1	debug.h	108;"	d
+assert1	debug.h	64;"	d
+assert1_msg	debug.h	113;"	d
+assert1_msg	debug.h	92;"	d
+assert2	debug.h	109;"	d
+assert2	debug.h	67;"	d
+assert2_msg	debug.h	114;"	d
+assert2_msg	debug.h	95;"	d
+assert3	debug.h	110;"	d
+assert3	debug.h	70;"	d
+assert3_msg	debug.h	115;"	d
+assert3_msg	debug.h	98;"	d
+assert4	debug.h	111;"	d
+assert4	debug.h	73;"	d
+assert4_msg	debug.h	101;"	d
+assert4_msg	debug.h	116;"	d
+assert_msg	debug.h	112;"	d
+assert_msg	debug.h	89;"	d
+augmentCfg	cfg.cpp	/^void Cfg::augmentCfg(addr_t start, std::map<addr_t, Function *> &funcs) {$/;"	f	class:Cfg
+augmentCfg	cfg.cpp	/^void Cfg::augmentCfg(std::list<std::pair<addr_t, addr_t> > &wlist, $/;"	f	class:Cfg
+basicblock	instr.h	/^    BasicBlock *basicblock;$/;"	m	class:Instruction
+basicblocks_t	types.h	/^typedef std::set<BasicBlock *> basicblocks_t;$/;"	t
+bb2def_set_t	dataflow.h	/^typedef std::map<BasicBlock *, def_set_t> bb2def_set_t;$/;"	t
+bb2heapobj_t	static/AbstractInterpreter.h	/^    typedef std::map<BasicBlock *, RegionPtr> bb2heapobj_t;$/;"	t	class:absinter::AbstractInterpreter
+bb2state_t	static/AbstractInterpreter.h	/^    typedef std::map<BasicBlock *, StatePtr> bb2state_t;$/;"	t	class:absinter::AbstractInterpreter
+bb_begin	cfg.h	/^    const_bb_iterator bb_begin() const { return vertices_begin(); }$/;"	f	class:Cfg
+bb_end	cfg.h	/^    const_bb_iterator bb_end() const { return vertices_end(); }$/;"	f	class:Cfg
+bb_list_t	static/AbstractInterpreter.h	/^typedef std::list<BasicBlock *> bb_list_t;$/;"	t	namespace:absinter
+bb_lookup_cache	InterProcCFG.h	/^    tr1::unordered_map<addr_t, BasicBlock *> bb_lookup_cache;$/;"	m	class:InterProcCFG
+bb_ptr_t	InterProcCFG.h	/^    struct bb_ptr_t { typedef vertex_property_tag kind; };$/;"	s	class:InterProcCFG
+bb_set_t	static/AbstractInterpreter.h	/^typedef std::set<const BasicBlock *> bb_set_t;$/;"	t	namespace:absinter
+bb_to_node	InterProcCFG.h	/^    map<BasicBlock *, IPCFGNode> bb_to_node;$/;"	m	class:InterProcCFG
+begin	bourdoncle_wto.h	/^    const_iterator begin() const { $/;"	f	class:WTO
+begin	bourdoncle_wto.h	/^    const_iterator begin(V v) const { $/;"	f	class:WTO
+begin	static/AbsRegion.h	/^    const_iterator begin() const {$/;"	f	class:absdomain::Region
+begin	static/AbsState.h	/^    const_iterator begin() const { $/;"	f	class:absdomain::AbsState
+begin	static/Registers.h	/^    const int begin; \/\/ Inclusive$/;"	m	struct:absdomain::regs
+boost	graph.h	/^namespace boost {$/;"	n
+bourdoncle_component	bourdoncle_wto.h	/^void bourdoncle_component(const graph_t &graph, const unsigned int vertex, $/;"	f
+bourdoncle_partition	bourdoncle_wto.h	/^void bourdoncle_partition(const graph_t &g, $/;"	f
+bourdoncle_visit	bourdoncle_wto.h	/^unsigned int bourdoncle_visit(const graph_t &graph, const unsigned int vertex, $/;"	f
+build_ipcfg	InterProcCFG.cc	/^InterProcCFG *build_ipcfg(const char *fname, map<addr_t, Function *> &F) {$/;"	f
+byte_t	types.h	/^typedef unsigned char byte_t;$/;"	t
+bytes	prog.h	/^    bytes_t bytes;$/;"	m	class:Section
+bytes_begin	prog.h	/^    bytes_t::const_iterator bytes_begin() {$/;"	f	class:Section
+bytes_end	prog.h	/^    bytes_t::const_iterator bytes_end() {$/;"	f	class:Section
+bytes_t	prog.h	/^typedef std::vector<byte_t> bytes_t;$/;"	t
+cache	static/AbstractDomain.h	/^    static THREADLOCAL CacheTy* cache;$/;"	m	class:absdomain::AbstractDomain
+call_targets_begin	cfg.cpp	/^functions_t::const_iterator Cfg::call_targets_begin(const BasicBlock &bb) { $/;"	f	class:Cfg
+call_targets_begin	cfg.h	/^    functions_t::const_iterator call_targets_begin(addr_t i) const {$/;"	f	class:Cfg
+call_targets_begin	cfg.h	/^    functions_t::iterator call_targets_begin(addr_t i) {$/;"	f	class:Cfg
+call_targets_begin	instr.cpp	/^functions_t::const_iterator Instruction::call_targets_begin() const {$/;"	f	class:Instruction
+call_targets_end	cfg.cpp	/^functions_t::const_iterator Cfg::call_targets_end(const BasicBlock &bb) {$/;"	f	class:Cfg
+call_targets_end	cfg.h	/^    functions_t::const_iterator call_targets_end(addr_t i) const {$/;"	f	class:Cfg
+call_targets_end	cfg.h	/^    functions_t::iterator call_targets_end(addr_t i) {$/;"	f	class:Cfg
+call_targets_end	instr.cpp	/^functions_t::const_iterator Instruction::call_targets_end() const {$/;"	f	class:Instruction
+calladdr	callstack.h	/^  void *calladdr;$/;"	m	struct:__anon1
+callcontext	static/static.cc	/^std::list<std::pair<addr_t, std::string> > callcontext;$/;"	v
+callgraph	pinTracer.cpp	/^static CallGraph *callgraph = NULL;$/;"	v	file:
+callgraph	prog.h	/^    CallGraph callgraph;$/;"	m	class:Prog
+callgraph	static/static.cc	/^static CallGraph *callgraph;$/;"	v	file:
+callgraph_t	callgraph.h	/^    typedef Graph<Function *, CallGraphEdge *> callgraph_t;$/;"	t	class:CallGraph
+calls	cfg.h	/^    Adr2FunMapTy calls;$/;"	m	class:Cfg
+callstack	static/AbstractInterpreter.h	/^    func_list_t callstack;$/;"	m	class:absinter::AbstractInterpreter
+callstack_depth	callstack.h	/^static inline int callstack_depth(int tid) {$/;"	f
+callstack_pop	callstack.h	/^static inline void callstack_pop(int tid, void *stackptr, void **funcaddr, void **calladdr) {$/;"	f
+callstack_push	callstack.h	/^static inline void callstack_push(int tid, void *stackptr, void *funcaddr, void *calladdr) {$/;"	f
+callstack_t	callstack.h	/^} callstack_t;$/;"	t	typeref:struct:__anon1
+callstack_top	callstack.h	/^static inline void callstack_top(int tid, void **funcaddr, void **calladdr) {$/;"	f
+callstack_top_funcaddr	callstack.h	/^static inline void *callstack_top_funcaddr(int tid) {$/;"	f
+can_have_self_loops	cfg.h	/^    bool can_have_self_loops;$/;"	m	class:Cfg
+cfg	InterProcCFG.h	/^    Cfg *cfg;$/;"	m	class:IntraProcCFG
+cfg	cfg.h	/^    Cfg               *cfg;$/;"	m	class:BasicBlock
+cfg	func.h	/^    Cfg          *cfg;$/;"	m	class:Function
+cfg_t	cfg.h	/^    typedef Graph<BasicBlock *, BasicBlockEdge *> cfg_t;$/;"	t	class:Cfg
+check	cfg.cpp	/^void Cfg::check() {$/;"	f	class:Cfg
+check	static/AbsRegion.h	/^inline bool Region<T>::check() const  {$/;"	f	class:absdomain::Region
+check	static/AbsState.h	/^inline bool AbsState<T>::check() const {$/;"	f	class:absdomain::AbsState
+checkWrite	static/AbsRegion.h	/^inline bool Region<T>::checkWrite(TPtr p, AlocPair ap) {$/;"	f	class:absdomain::Region
+checkWrite	static/AbsRegion.h	/^inline bool Region<T>::checkWrite(TPtr p, VSetPtr vs) {$/;"	f	class:absdomain::Region
+cksum	instr.h	/^    uint32_t cksum;$/;"	m	class:Instruction
+clear	cfg.cpp	/^void Cfg::clear() {$/;"	f	class:Cfg
+cmpR	static/AbsRegion.h	/^    Cmp<boost::intrusive_ptr<absdomain::Region<T> > > cmpR;$/;"	m	struct:utils::Cmp
+cmpT	static/AbsRegion.h	/^    Cmp<boost::intrusive_ptr<T> > cmpT;$/;"	m	struct:utils::Cmp
+component_t	bourdoncle_wto.h	/^    typedef typename std::pair<V, int> component_t;$/;"	t	class:WTO
+components	bourdoncle_wto.h	/^    std::map<V, V> components;$/;"	m	class:WTO
+components_no	bourdoncle_wto.h	/^    std::map<V, int> components_no;$/;"	m	class:WTO
+computeCksum	instr.cpp	/^uint32_t Instruction::computeCksum() {$/;"	f	class:Instruction
+computeDFNumbering	graph.h	/^    void computeDFNumbering() {$/;"	f	class:Graph
+computeDominators	graph.h	/^    void computeDominators() {$/;"	f	class:Graph
+computeGeneratedVariables	dataflow.cpp	/^void computeGeneratedVariables( BasicBlock   * bb, $/;"	f
+computeGeneratedVariables	dataflow.cpp	/^void computeGeneratedVariables( Cfg          * cfg, $/;"	f
+computeGeneratedVariables	dataflow.cpp	/^void computeGeneratedVariables( Instruction  * i, $/;"	f
+computeHash	static/AbsDomStridedInterval.h	/^    static int computeHash(int h,int l, unsigned s) {$/;"	f	class:absdomain::StridedInterval
+computeKilledVariables	dataflow.cpp	/^void computeKilledVariables(BasicBlock *bb, defuse_map_t &defmap,$/;"	f
+computePostDominators	graph.h	/^    void computePostDominators(std::set<vertex_t> *exits) {$/;"	f	class:Graph
+computeReachingDef	dataflow.cpp	/^void computeReachingDef(Cfg *cfg, defuse_map_t &defmap, $/;"	f
+computeSlice	dataflow.cpp	/^void computeSlice(Instruction *i, defuse_map_t &defmap, defuse_map_t &usemap,$/;"	f
+computeUseDefChain	dataflow.cpp	/^void computeUseDefChain(Cfg *cfg, defuse_map_t &defmap, defuse_map_t &usemap,$/;"	f
+computeWeakTopologicalOrdering	graph.h	/^    void computeWeakTopologicalOrdering() {$/;"	f	class:Graph
+compute_functions_costs	InterProcCFG.cc	/^void compute_functions_costs(CallGraph *cg, costmap &costs) {$/;"	f
+compute_pth	InterProcCFG.cc	/^long InterProcCFG::compute_pth(bool first_call, BasicBlock *bb) {$/;"	f	class:InterProcCFG
+compute_shortest_path_to_exit	InterProcCFG.cc	/^long long IntraProcCFG::compute_shortest_path_to_exit() {$/;"	f	class:IntraProcCFG
+compute_shortest_paths	InterProcCFG.cc	/^InterProcCFG::compute_shortest_paths() {$/;"	f	class:InterProcCFG
+const_bb_iterator	cfg.h	/^    typedef cfg_t::const_vertex_iterator const_bb_iterator;$/;"	t	class:Cfg
+const_edge_iterator	callgraph.h	/^    typedef callgraph_t::const_edge_iterator const_edge_iterator;$/;"	t	class:CallGraph
+const_edge_iterator	cfg.h	/^    typedef cfg_t::const_edge_iterator const_edge_iterator;$/;"	t	class:Cfg
+const_edge_iterator	graph.h	/^        const_edge_iterator() {$/;"	f	class:Graph::const_edge_iterator
+const_edge_iterator	graph.h	/^        explicit const_edge_iterator(const Graph *g_) {$/;"	f	class:Graph::const_edge_iterator
+const_edge_iterator	graph.h	/^        explicit const_edge_iterator(const Graph *g_, bool) {$/;"	f	class:Graph::const_edge_iterator
+const_edge_iterator	graph.h	/^        explicit const_edge_iterator(const Graph *g_, edge_iterator eit_) {$/;"	f	class:Graph::const_edge_iterator
+const_edge_iterator	graph.h	/^    class const_edge_iterator {$/;"	c	class:Graph
+const_exit_iterator	cfg.h	/^    typedef basicblocks_t::iterator const_exit_iterator;$/;"	t	class:Cfg
+const_func_iterator	callgraph.h	/^    typedef callgraph_t::const_vertex_iterator const_func_iterator;$/;"	t	class:CallGraph
+const_iterator	Utilities.h	/^    typedef typename _Base::const_iterator const_iterator;$/;"	t	class:utils::Map
+const_iterator	Utilities.h	/^    typedef typename _Base::const_iterator const_iterator;$/;"	t	class:utils::Multimap
+const_iterator	bourdoncle_wto.h	/^	const_iterator() {$/;"	f	class:WTO::const_iterator
+const_iterator	bourdoncle_wto.h	/^        explicit const_iterator(const ordering_t &o_) {$/;"	f	class:WTO::const_iterator
+const_iterator	bourdoncle_wto.h	/^        explicit const_iterator(const ordering_t &o_, bool) {$/;"	f	class:WTO::const_iterator
+const_iterator	bourdoncle_wto.h	/^        explicit const_iterator(const ordering_t &o_, ordering_t_iterator it_) {$/;"	f	class:WTO::const_iterator
+const_iterator	bourdoncle_wto.h	/^    class const_iterator {$/;"	c	class:WTO
+const_iterator	static/AbsRegion.h	/^    typedef typename RBTree::const_iterator const_iterator;$/;"	t	class:absdomain::Region
+const_iterator	static/AbsState.h	/^    typedef typename RBTree::const_iterator const_iterator;$/;"	t	class:absdomain::AbsState
+const_iterator_pair	Utilities.h	/^        const_iterator_pair;$/;"	t	class:utils::Map
+const_iterator_pair	Utilities.h	/^        const_iterator_pair;$/;"	t	class:utils::Multimap
+const_pred_iterator	graph.h	/^        const_pred_iterator() {$/;"	f	class:Graph::const_pred_iterator
+const_pred_iterator	graph.h	/^        explicit const_pred_iterator(const Graph *g_, vertex_descriptor v_) {$/;"	f	class:Graph::const_pred_iterator
+const_pred_iterator	graph.h	/^        explicit const_pred_iterator(const Graph *g_, vertex_descriptor v_, bool) {$/;"	f	class:Graph::const_pred_iterator
+const_pred_iterator	graph.h	/^        explicit const_pred_iterator(const Graph *g_, vertex_descriptor v_, in_edge_iterator vit_) {$/;"	f	class:Graph::const_pred_iterator
+const_pred_iterator	graph.h	/^    class const_pred_iterator {$/;"	c	class:Graph
+const_reverse_iterator	bourdoncle_wto.h	/^	const_reverse_iterator() {$/;"	f	class:WTO::const_reverse_iterator
+const_reverse_iterator	bourdoncle_wto.h	/^        explicit const_reverse_iterator(const ordering_t &o_) {$/;"	f	class:WTO::const_reverse_iterator
+const_reverse_iterator	bourdoncle_wto.h	/^        explicit const_reverse_iterator(const ordering_t &o_, bool) {$/;"	f	class:WTO::const_reverse_iterator
+const_reverse_iterator	bourdoncle_wto.h	/^        explicit const_reverse_iterator(const ordering_t &o_, ordering_t_iterator it_) {$/;"	f	class:WTO::const_reverse_iterator
+const_reverse_iterator	bourdoncle_wto.h	/^    class const_reverse_iterator {$/;"	c	class:WTO
+const_reverse_wto_iterator	graph.h	/^    typedef typename WTO<vertex_descriptor>::const_reverse_iterator const_reverse_wto_iterator;$/;"	t	class:Graph
+const_succ_iterator	graph.h	/^        const_succ_iterator() {$/;"	f	class:Graph::const_succ_iterator
+const_succ_iterator	graph.h	/^        explicit const_succ_iterator(const Graph *g_, vertex_descriptor v_) {$/;"	f	class:Graph::const_succ_iterator
+const_succ_iterator	graph.h	/^        explicit const_succ_iterator(const Graph *g_, vertex_descriptor v_, bool) {$/;"	f	class:Graph::const_succ_iterator
+const_succ_iterator	graph.h	/^        explicit const_succ_iterator(const Graph *g_, vertex_descriptor v_, out_edge_iterator vit_) {$/;"	f	class:Graph::const_succ_iterator
+const_succ_iterator	graph.h	/^    class const_succ_iterator {$/;"	c	class:Graph
+const_vertex_iterator	graph.h	/^        const_vertex_iterator() {$/;"	f	class:Graph::const_vertex_iterator
+const_vertex_iterator	graph.h	/^        explicit const_vertex_iterator(const Graph *g_) {$/;"	f	class:Graph::const_vertex_iterator
+const_vertex_iterator	graph.h	/^        explicit const_vertex_iterator(const Graph *g_, bool) {$/;"	f	class:Graph::const_vertex_iterator
+const_vertex_iterator	graph.h	/^        explicit const_vertex_iterator(const Graph *g_, vertex_iterator vit_) {$/;"	f	class:Graph::const_vertex_iterator
+const_vertex_iterator	graph.h	/^    class const_vertex_iterator {$/;"	c	class:Graph
+const_wto_iterator	graph.h	/^    typedef typename WTO<vertex_descriptor>::const_iterator const_wto_iterator;$/;"	t	class:Graph
+containsZero	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::containsZero() const {$/;"	f	class:StridedInterval
+content_iterator	static/AbsRegion.h	/^    typedef typename ContentVector::const_iterator content_iterator;$/;"	t	class:absdomain::Region
+copy_edges_to_ipcfg	InterProcCFG.cc	/^InterProcCFG::copy_edges_to_ipcfg( Function * func,$/;"	f	class:InterProcCFG
+copy_nodes_to_ipcfg	InterProcCFG.cc	/^InterProcCFG::copy_nodes_to_ipcfg(Function *func) {$/;"	f	class:InterProcCFG
+costmap	InterProcCFG.h	/^typedef map<Function *, long long> costmap;$/;"	t
+counter	static/AbsRegion.h	/^    static THREADLOCAL int counter;$/;"	m	class:absdomain::Region
+createSection	prog.h	/^    void createSection(const addr_t a, const char* name, $/;"	f	class:Prog
+ctx_post_states	static/AbstractInterpreter.h	/^    std::map<ContextPtr, bb2state_t *, ctxcmp> ctx_post_states;$/;"	m	class:absinter::AbstractInterpreter
+ctx_pre_states	static/AbstractInterpreter.h	/^    std::map<ContextPtr, bb2state_t *, ctxcmp> ctx_pre_states;$/;"	m	class:absinter::AbstractInterpreter
+cur_bb	static/AbstractInterpreter.h	/^    BasicBlock *cur_bb;$/;"	m	class:absinter::AbstractInterpreter
+cur_context	static/AbstractInterpreter.h	/^    ContextPtr cur_context;$/;"	m	class:absinter::AbstractInterpreter
+cur_ctx_post_states	static/AbstractInterpreter.h	/^    bb2state_t *cur_ctx_post_states;$/;"	m	class:absinter::AbstractInterpreter
+cur_ctx_pre_states	static/AbstractInterpreter.h	/^    bb2state_t *cur_ctx_pre_states;$/;"	m	class:absinter::AbstractInterpreter
+cur_func	static/AbstractInterpreter.h	/^    Function *cur_func;$/;"	m	class:absinter::AbstractInterpreter
+cur_instr	static/AbstractInterpreter.h	/^    Instruction *cur_instr;$/;"	m	class:absinter::AbstractInterpreter
+cur_state	static/AbstractInterpreter.h	/^    StatePtr cur_state;$/;"	m	class:absinter::AbstractInterpreter
+current_function	pinTracer.cpp	/^static ADDRINT current_function = 0;$/;"	v	file:
+current_instruction	static/RegionTest.cpp	/^addr_t current_instruction;$/;"	v
+current_instruction	static/static.cc	/^addr_t current_instruction = 0;$/;"	v
+debug	debug.h	27;"	d
+debug1	debug.h	31;"	d
+debug2	debug.h	35;"	d
+debug3	debug.h	39;"	d
+debug4	debug.h	43;"	d
+decode	cfg.cpp	/^void BasicBlock::decode() {$/;"	f	class:BasicBlock
+decode	cfg.cpp	/^void Cfg::decode() {$/;"	f	class:Cfg
+decode	instr.cpp	/^void Instruction::decode() {$/;"	f	class:Instruction
+decoded	cfg.h	/^    bool              decoded;$/;"	m	class:BasicBlock
+decoded	cfg.h	/^    bool decoded;$/;"	m	class:Cfg
+decoded	instr.h	/^    bool     decoded;$/;"	m	class:Instruction
+def_set_t	dataflow.h	/^typedef std::set<def_t> def_set_t;$/;"	t
+def_t	dataflow.h	/^typedef std::pair<var_t, Instruction *> def_t;$/;"	t
+def_to_string	dataflow.cpp	/^std::string def_to_string(def_set_t &vds) $/;"	f
+def_to_string	dataflow.cpp	/^std::string def_to_string(def_t vd) {$/;"	f
+defcmp	dataflow.h	/^struct defcmp {$/;"	s
+defuse_map_t	dataflow.h	/^typedef std::map<Instruction *, var_set_t> defuse_map_t;$/;"	t
+degree_t	graph.h	/^    typedef typename boost::graph_traits<graph_t>::degree_size_type degree_t;$/;"	t	class:Graph
+delBasicBlock	cfg.cpp	/^void Cfg::delBasicBlock(BasicBlock *bb) {$/;"	f	class:Cfg
+delEdge	graph.h	/^    edge_t delEdge(const vertex_descriptor vd1, const vertex_descriptor vd2) {$/;"	f	class:Graph
+delEdge	graph.h	/^    edge_t delEdge(const vertex_t v1, const vertex_t v2) {$/;"	f	class:Graph
+delVertex	graph.h	/^    void delVertex(const vertex_descriptor vd) {$/;"	f	class:Graph
+delVertex	graph.h	/^    void delVertex(const vertex_t v) {$/;"	f	class:Graph
+depth	static/AbstractInterpreter.h	/^    StackDepthMapTy depth;$/;"	m	class:absinter::AbstractInterpreter
+derefplt	PinDisasm.cpp	/^ADDRINT derefplt(ADDRINT instrptr, ADDRINT funcaddr, ADDRINT ebx) $/;"	f
+dfn_t	bourdoncle_wto.h	/^typedef std::map<unsigned int, unsigned int> dfn_t;$/;"	t
+dfnum	graph.h	/^    std::map<vertex_descriptor, int> dfnum;$/;"	m	class:Graph
+dfnum_computed	graph.h	/^    bool dfnum_computed;$/;"	m	class:Graph
+dietlibcfuncs	static/static.cc	/^std::set<std::string> dietlibcfuncs;$/;"	v
+difference_type	bourdoncle_wto.h	/^        typedef size_t                difference_type;$/;"	t	class:WTO::const_iterator
+difference_type	bourdoncle_wto.h	/^        typedef size_t                difference_type;$/;"	t	class:WTO::const_reverse_iterator
+difference_type	graph.h	/^        typedef size_t                difference_type;$/;"	t	class:Graph::const_pred_iterator
+difference_type	graph.h	/^        typedef size_t                difference_type;$/;"	t	class:Graph::const_succ_iterator
+difference_type	graph.h	/^        typedef size_t                difference_type;$/;"	t	class:Graph::const_vertex_iterator
+difference_type	graph.h	/^        typedef size_t              difference_type;$/;"	t	class:Graph::const_edge_iterator
+dirtyslice	static/static.cc	/^bool dirtyslice = false;$/;"	v
+disassemble	cfg.cpp	/^int disassemble(addr_t addr, addr_t &next1, addr_t &next2, $/;"	f
+discardFrame	static/AbsRegion.h	/^inline typename Region<T>::RegionPtr Region<T>::discardFrame(int$/;"	f	class:absdomain::Region
+discardFrame	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::discardFrame(int boundary) {$/;"	f	class:absdomain::AbsState
+doesDivOverflow	static/AbsDomStridedInterval.cpp	/^bool doesDivOverflow(int x, int y) {$/;"	f	namespace:__anon2
+doesDominate	graph.h	/^    bool doesDominate(vertex_descriptor v1, vertex_descriptor v2) {$/;"	f	class:Graph
+doesDominate	graph.h	/^    bool doesDominate(vertex_t v1, vertex_t v2) {$/;"	f	class:Graph
+doesMulOverflow	static/AbsDomStridedInterval.cpp	/^bool doesMulOverflow(int x, int y) {$/;"	f	namespace:__anon2
+doesPostDominate	graph.h	/^    bool doesPostDominate(vertex_descriptor v1, vertex_descriptor v2) {$/;"	f	class:Graph
+doesPostDominate	graph.h	/^    bool doesPostDominate(vertex_t v1, vertex_t v2) {$/;"	f	class:Graph
+doesSubOverflow	static/AbsDomStridedInterval.cpp	/^bool doesSubOverflow(int x, int y) {$/;"	f	namespace:__anon2
+doesSumOverflow	static/AbsDomStridedInterval.cpp	/^bool doesSumOverflow(int x, int y) {$/;"	f	namespace:__anon2
+dot	callgraph.cpp	/^std::string CallGraph::dot() {$/;"	f	class:CallGraph
+dot	cfg.cpp	/^std::string Cfg::dot() {$/;"	f	class:Cfg
+dot	pinTracer.cpp	/^static const char * dot     = NULL;$/;"	v	file:
+edge_begin	callgraph.h	/^    const_edge_iterator edge_begin() { return edges_begin(); }$/;"	f	class:CallGraph
+edge_begin	cfg.h	/^    const_edge_iterator edge_begin() const { return edges_begin(); }$/;"	f	class:Cfg
+edge_descriptor	graph.h	/^    typedef typename boost::graph_traits<graph_t>::edge_descriptor edge_descriptor;$/;"	t	class:Graph
+edge_end	callgraph.h	/^    const_edge_iterator edge_end() { return edges_end(); }$/;"	f	class:CallGraph
+edge_end	cfg.h	/^    const_edge_iterator edge_end() const { return edges_end(); }$/;"	f	class:Cfg
+edge_is_loop_exit	InterProcCFG.cc	/^InterProcCFG::edge_is_loop_exit(BasicBlock *from_bb, BasicBlock *to_bb) {$/;"	f	class:InterProcCFG
+edge_is_loop_exit	InterProcCFG.cc	/^InterProcCFG::edge_is_loop_exit(addr_t from_addr, addr_t to_addr,$/;"	f	class:InterProcCFG
+edge_iterator	graph.h	/^    typedef typename boost::graph_traits<graph_t>::edge_iterator edge_iterator;$/;"	t	class:Graph
+edge_map	graph.h	/^    typename boost::property_map<graph_t,edge_properties_t>::type edge_map;$/;"	m	class:Graph
+edge_properties	graph.h	/^enum edge_properties_t { edge_properties };$/;"	e	enum:edge_properties_t
+edge_properties_t	graph.h	/^enum edge_properties_t { edge_properties };$/;"	g
+edge_range_t	graph.h	/^    typedef std::pair<edge_iterator, edge_iterator> edge_range_t;$/;"	t	class:Graph
+edge_rev_map	graph.h	/^    std::map<edge_t, edge_descriptor> edge_rev_map;$/;"	m	class:Graph
+edge_t	graph.h	/^    typedef EDGE edge_t;$/;"	t	class:Graph
+edge_type	InterProcCFG.h	/^    enum edge_type {$/;"	g	class:InterProcCFG
+edge_type_t	InterProcCFG.h	/^    struct edge_type_t { typedef edge_property_tag kind; };$/;"	s	class:InterProcCFG
+edges_begin	graph.h	/^    const_edge_iterator edges_begin() const { $/;"	f	class:Graph
+edges_end	graph.h	/^    const_edge_iterator edges_end() const {$/;"	f	class:Graph
+eit	graph.h	/^	edge_iterator eit;$/;"	m	class:Graph::const_edge_iterator
+empty	static/AbsState.h	/^    bool empty() const { return rbt.get() == 0 || rbt->empty(); }$/;"	f	class:absdomain::AbsState
+enclosing_component	bourdoncle_wto.h	/^    std::map<V, V> enclosing_component;$/;"	m	class:WTO
+end	bourdoncle_wto.h	/^    const_iterator end() const { $/;"	f	class:WTO
+end	bourdoncle_wto.h	/^    const_iterator end(V v) const { $/;"	f	class:WTO
+end	static/AbsRegion.h	/^    const_iterator end() const {$/;"	f	class:absdomain::Region
+end	static/AbsState.h	/^    const_iterator end() const { $/;"	f	class:absdomain::AbsState
+end	static/Registers.h	/^    const int end;   \/\/ Exclusive$/;"	m	struct:absdomain::regs
+enterFunction	static/AbstractInterpreter.h	/^inline void AbstractInterpreter<S,V,St>::enterFunction(Function &f, $/;"	f	class:absinter::AbstractInterpreter
+entry	cfg.h	/^    BasicBlock *entry;$/;"	m	class:Cfg
+entry_vertex	graph.h	/^    vertex_descriptor entry_vertex;$/;"	m	class:Graph
+equal	static/AbsDomStridedInterval.h	/^    bool equal(int low, int high, unsigned stride) const {$/;"	f	class:absdomain::StridedInterval
+equal_range	static/AbsDomStridedInterval.cpp	/^    StridedInterval::equal_range(int h) {$/;"	f	class:StridedInterval
+executed	instr.h	/^    bool executed;$/;"	m	class:Instruction
+exitnode	InterProcCFG.h	/^    BasicBlock *exitnode;$/;"	m	class:IntraProcCFG
+exits	cfg.h	/^    basicblocks_t exits;$/;"	m	class:Cfg
+exits_begin	cfg.h	/^    const_exit_iterator exits_begin() const { return exits.begin(); }$/;"	f	class:Cfg
+exits_end	cfg.h	/^    const_exit_iterator exits_end() const { return exits.end(); }$/;"	f	class:Cfg
+finalize	bourdoncle_wto.h	/^    void finalize() {$/;"	f	class:WTO
+find	static/AbsState.h	/^inline typename boost::intrusive_ptr<Region<T> > AbsState<T>::find(int$/;"	f	class:absdomain::AbsState
+flags	prog.h	/^    unsigned int flags;$/;"	m	class:Section
+func	InterProcCFG.h	/^    Function *func;$/;"	m	class:IntraProcCFG
+func_begin	callgraph.h	/^    const_func_iterator func_begin() { return vertices_begin(); }$/;"	f	class:CallGraph
+func_end	callgraph.h	/^    const_func_iterator func_end() { return vertices_end(); }$/;"	f	class:CallGraph
+func_list_t	static/AbstractInterpreter.h	/^typedef std::list<const Function *> func_list_t;$/;"	t	namespace:absinter
+func_name	static/AbstractInterpreter.h	430;"	d
+func_name	static/AbstractInterpreter.h	435;"	d
+func_unique_name	InterProcCFG.cc	/^static const char *func_unique_name(Function *func) {$/;"	f	file:
+funcaddr	callstack.h	/^  void *funcaddr;$/;"	m	struct:__anon1
+funcname	pinTracer.cpp	/^string funcname(ADDRINT addr) {$/;"	f
+function	cfg.h	/^    Function *function;$/;"	m	class:Cfg
+functions	InterProcCFG.cc	/^map <addr_t, Function *> functions, functions_bis;$/;"	v
+functions	pinTracer.cpp	/^static map <ADDRINT, Function *> functions;$/;"	v	file:
+functions	static/static.cc	/^static map <size_t, Function *> functions;$/;"	v	file:
+functions_bis	InterProcCFG.cc	/^map <addr_t, Function *> functions, functions_bis;$/;"	v
+functions_t	types.h	/^typedef std::set<Function *> functions_t;$/;"	t
+g	graph.h	/^	const Graph *g;$/;"	m	class:Graph::const_edge_iterator
+g	graph.h	/^	const Graph *g;$/;"	m	class:Graph::const_pred_iterator
+g	graph.h	/^	const Graph *g;$/;"	m	class:Graph::const_succ_iterator
+g	graph.h	/^	const Graph *g;$/;"	m	class:Graph::const_vertex_iterator
+gcd	Utilities.cpp	/^int gcd(int a, int b) {$/;"	f	namespace:utils
+gcdSafe	Utilities.cpp	/^unsigned gcdSafe(unsigned x, unsigned y) {$/;"	f	namespace:utils
+gcdu	Utilities.cpp	/^int gcdu(unsigned a, unsigned b) {$/;"	f	namespace:utils
+get	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::get(int low, int high, unsigned$/;"	f	class:StridedInterval
+get	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::get(int x, unsigned s) {$/;"	f	class:StridedInterval
+get	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::get(RegionPtr r1, RegionPtr r2, RegionPtr$/;"	f	class:absdomain::AbsState
+get	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::get(RegionVecTy& v) {$/;"	f	class:absdomain::AbsState
+getAddress	cfg.cpp	/^addr_t BasicBlock::getAddress() {$/;"	f	class:BasicBlock
+getAddress	func.cpp	/^addr_t Function::getAddress() const {$/;"	f	class:Function
+getAddress	instr.cpp	/^addr_t Instruction::getAddress() const {$/;"	f	class:Instruction
+getAddress	prog.h	/^    addr_t getAddress() {$/;"	f	class:Section
+getArgumentsNo	func.cpp	/^int Function::getArgumentsNo() {$/;"	f	class:Function
+getBase	prog.h	/^    addr_t getBase(addr_t a) {$/;"	f	class:Prog
+getBase	prog.h	/^    addr_t getBase(addr_t a, const char *n) {$/;"	f	class:Prog
+getBasicBlock	instr.cpp	/^BasicBlock *Instruction::getBasicBlock() {$/;"	f	class:Instruction
+getBasicBlocksNo	cfg.cpp	/^size_t Cfg::getBasicBlocksNo() {$/;"	f	class:Cfg
+getBot	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::getBot() {$/;"	f	class:StridedInterval
+getBot	static/AbstractDomain.h	/^    static DomainPtr getBot() { return T::getBot(); }$/;"	f	class:absdomain::AbstractDomain
+getByte	prog.h	/^    byte_t getByte(addr_t a) const {$/;"	f	class:Section
+getCallGraph	prog.h	/^    CallGraph *getCallGraph() {$/;"	f	class:Prog
+getCfg	cfg.cpp	/^Cfg *BasicBlock::getCfg() {$/;"	f	class:BasicBlock
+getCfg	func.cpp	/^Cfg *Function::getCfg() {$/;"	f	class:Function
+getCksum	instr.cpp	/^uint32_t Instruction::getCksum() {$/;"	f	class:Instruction
+getComponent	bourdoncle_wto.h	/^    V getComponent(V v) {$/;"	f	class:WTO
+getComponent	graph.h	/^    vertex_t getComponent(vertex_t v) {$/;"	f	class:Graph
+getComponentNo	bourdoncle_wto.h	/^    int getComponentNo(V v) {$/;"	f	class:WTO
+getComponentNo	graph.h	/^    int getComponentNo(vertex_t v) {$/;"	f	class:Graph
+getDefaultArgvAddress	prog.h	/^    static addr_t getDefaultArgvAddress() {$/;"	f	class:Prog
+getDominator	graph.h	/^    vertex_descriptor getDominator(vertex_descriptor v) {$/;"	f	class:Graph
+getDominator	graph.h	/^    vertex_t getDominator(vertex_t v) {$/;"	f	class:Graph
+getEdge	graph.h	/^    edge_descriptor getEdge(const vertex_descriptor vd1, $/;"	f	class:Graph
+getEdge	graph.h	/^    edge_t getEdge(const vertex_t v1, const vertex_t v2) const {$/;"	f	class:Graph
+getEnclosingComponent	bourdoncle_wto.h	/^    V getEnclosingComponent(V v) {$/;"	f	class:WTO
+getEnclosingComponent	graph.h	/^    vertex_t getEnclosingComponent(vertex_t v) {$/;"	f	class:Graph
+getEntry	cfg.h	/^    BasicBlock *getEntry() const {$/;"	f	class:Cfg
+getFlags	prog.h	/^    unsigned int getFlags() {$/;"	f	class:Section
+getFresh	static/AbsRegion.h	/^inline typename Region<T>::RegionPtr Region<T>::getFresh(rg::RegionTy$/;"	f	class:absdomain::Region
+getFunction	cfg.h	/^    Function *getFunction() { return function; }$/;"	f	class:Cfg
+getGlobal	static/AbsState.h	/^    RegionPtr getGlobal()   { return find(0); }$/;"	f	class:absdomain::AbsState
+getHash	static/AbsDomStridedInterval.h	/^    int getHash() const { return computeHash(lo,hi,strd); }$/;"	f	class:absdomain::StridedInterval
+getHash	static/AbsRegion.h	/^inline int Region<T>::getHash() const {$/;"	f	class:absdomain::Region
+getHash	static/AbsState.h	/^    int getHash() const { return rbt->getHash(); }$/;"	f	class:absdomain::AbsState
+getHi	static/AbsDomStridedInterval.h	/^    int getHi() const { return hi; }$/;"	f	class:absdomain::StridedInterval
+getId	static/AbsRegion.h	/^    int getId() const { return id; }$/;"	f	class:absdomain::Region
+getInitForMain	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::getInitForMain() {$/;"	f	class:absdomain::AbsState
+getInstruction	cfg.cpp	/^Instruction *BasicBlock::getInstruction(addr_t i) {$/;"	f	class:BasicBlock
+getInstruction	cfg.h	/^    Instruction *getInstruction(addr_t i) { $/;"	f	class:Cfg
+getInstructionsNo	cfg.cpp	/^size_t BasicBlock::getInstructionsNo() {$/;"	f	class:BasicBlock
+getIntervalFor	static/AbsRegion.h	/^    static TPtr getIntervalFor(reg::RegEnumTy ty) {$/;"	f	class:absdomain::Region
+getIntervalFor	static/AbsState.h	/^    static TPtr getIntervalFor(reg::RegEnumTy ty) {$/;"	f	class:absdomain::AbsState
+getLo	static/AbsDomStridedInterval.h	/^    int getLo() const { return lo; }$/;"	f	class:absdomain::StridedInterval
+getMain	callgraph.h	/^    Function *getMain() const { return main; }$/;"	f	class:CallGraph
+getModule	func.cpp	/^const char *Function::getModule() const {$/;"	f	class:Function
+getName	func.cpp	/^const char *Function::getName() const {$/;"	f	class:Function
+getName	prog.h	/^    const char *getName() const {$/;"	f	class:Section
+getNextId	static/AbsRegion.h	/^    static int getNextId() {$/;"	f	class:absdomain::Region
+getNumEdges	graph.h	/^    size_t getNumEdges() {$/;"	f	class:Graph
+getNumPredecessors	cfg.cpp	/^int BasicBlock::getNumPredecessors() {$/;"	f	class:BasicBlock
+getNumPredecessors	graph.h	/^    int getNumPredecessors(const vertex_descriptor v) const {$/;"	f	class:Graph
+getNumPredecessors	graph.h	/^    int getNumPredecessors(const vertex_t v) const {$/;"	f	class:Graph
+getNumSuccessors	graph.h	/^    int getNumSuccessors(const vertex_descriptor v) const {$/;"	f	class:Graph
+getNumSuccessors	graph.h	/^    int getNumSuccessors(const vertex_t v) const {$/;"	f	class:Graph
+getNumVertex	graph.h	/^    size_t getNumVertex() {$/;"	f	class:Graph
+getPostDominator	graph.h	/^    vertex_descriptor getPostDominator(vertex_descriptor v) {$/;"	f	class:Graph
+getPostDominator	graph.h	/^    vertex_t getPostDominator(vertex_t v) {$/;"	f	class:Graph
+getProg	func.h	/^    Prog *getProg() { assert(prog); return prog; }$/;"	f	class:Function
+getRand	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::getRand(int limit, int strdlimit) {$/;"	f	class:StridedInterval
+getRawBytes	instr.cpp	/^byte_t *Instruction::getRawBytes() {$/;"	f	class:Instruction
+getRegNameAtAddress	static/Registers.cpp	/^const char* getRegNameAtAddress(int lo, int hi) {$/;"	f	namespace:absdomain
+getRegionType	static/AbsRegion.h	/^    rg::RegionTy getRegionType() const { return regty; }$/;"	f	class:absdomain::Region
+getRegister	static/AbsState.h	/^    RegionPtr getRegister() { return find(1); }$/;"	f	class:absdomain::AbsState
+getSize	cfg.cpp	/^size_t BasicBlock::getSize() {$/;"	f	class:BasicBlock
+getSize	func.cpp	/^size_t Function::getSize() const {$/;"	f	class:Function
+getSize	instr.cpp	/^size_t Instruction::getSize() {$/;"	f	class:Instruction
+getSize	prog.h	/^    size_t getSize() {$/;"	f	class:Section
+getSize	static/AbsRegion.h	/^    int getSize() const { return rbt->treeSize(); }$/;"	f	class:absdomain::Region
+getSizeRange	static/AbsRegion.h	/^    StridedIntervalPtr getSizeRange() const { return size; }$/;"	f	class:absdomain::Region
+getSource	callgraph.h	/^    Function *getSource() { $/;"	f	class:CallGraphEdge
+getSource	cfg.cpp	/^BasicBlock *BasicBlockEdge::getSource() {$/;"	f	class:BasicBlockEdge
+getStack	static/AbsState.h	/^    RegionPtr getStack()    { return find(2); }$/;"	f	class:absdomain::AbsState
+getStride	static/AbsDomStridedInterval.h	/^    unsigned getStride() const { return strd; }$/;"	f	class:absdomain::StridedInterval
+getStronglyUpdatable	static/AbsRegion.h	/^    RegionPtr getStronglyUpdatable() {$/;"	f	class:absdomain::Region
+getStronglyUpdatable	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::getStronglyUpdatable() {$/;"	f	class:absdomain::AbsState
+getTarget	callgraph.h	/^    Function *getTarget() {$/;"	f	class:CallGraphEdge
+getTarget	cfg.cpp	/^BasicBlock *BasicBlockEdge::getTarget() {$/;"	f	class:BasicBlockEdge
+getTop	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::getTop() {$/;"	f	class:StridedInterval
+getTop	static/AbstractDomain.h	/^    static DomainPtr getTop() { return T::getTop(); }$/;"	f	class:absdomain::AbstractDomain
+getVertex	graph.h	/^    vertex_descriptor getVertex(const vertex_t v) {$/;"	f	class:Graph
+getVertex	graph.h	/^    vertex_t getVertex(const vertex_descriptor vd) {$/;"	f	class:Graph
+getWeaklyUpdatable	static/AbsRegion.h	/^    RegionPtr getWeaklyUpdatable() {$/;"	f	class:absdomain::Region
+getWeaklyUpdatable	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::getWeaklyUpdatable() {$/;"	f	class:absdomain::AbsState
+get_component	InterProcCFG.cc	/^InterProcCFG::get_component(addr_t addr,$/;"	f	class:InterProcCFG
+graph	graph.h	/^    graph_t graph;$/;"	m	class:Graph
+graph_t	graph.h	/^	> graph_t;$/;"	t	class:Graph
+guessArgumentsNo	func.cpp	/^void Function::guessArgumentsNo() {$/;"	f	class:Function
+guessGlobalSize	prog.h	/^    size_t guessGlobalSize() {$/;"	f	class:Prog
+guess_main	static/static.cc	/^Function *guess_main() {$/;"	f
+hasEdge	graph.h	/^    bool hasEdge(const vertex_descriptor vd1, const vertex_descriptor vd2) {$/;"	f	class:Graph
+hasEdge	graph.h	/^    bool hasEdge(const vertex_t v1, const vertex_t v2) {$/;"	f	class:Graph
+hasVertex	graph.h	/^    bool hasVertex(const vertex_descriptor vd) const {$/;"	f	class:Graph
+hasVertex	graph.h	/^    bool hasVertex(const vertex_t v) const {$/;"	f	class:Graph
+hash	static/AbsRegion.h	/^    Hash<boost::intrusive_ptr<T> > hash;$/;"	m	struct:utils::Hash
+heap_objects	static/AbstractInterpreter.h	/^    bb2heapobj_t heap_objects;$/;"	m	class:absinter::AbstractInterpreter
+hi	static/AbsDomStridedInterval.h	/^    const int lo, hi;$/;"	m	class:absdomain::StridedInterval
+high	Utilities.h	/^    int high(T) const { return 0; }$/;"	f	struct:utils::Overlap
+high	static/AbsDomStridedInterval.h	/^    int high(absdomain::StridedIntervalPtr p) const {$/;"	f	struct:utils::Overlap
+high	static/AbsRegion.h	/^    int high(ALOCP p) const {$/;"	f	struct:utils::Overlap
+hook_call	pinTracer.cpp	/^static void hook_call( THREADID  tid, $/;"	f	file:
+hook_fini	pinTracer.cpp	/^static void hook_fini(INT32 c, void *v) $/;"	f	file:
+hook_instruction	pinTracer.cpp	/^static void hook_instruction( THREADID tid, $/;"	f	file:
+hook_main	pinTracer.cpp	/^static void hook_main( THREADID tid, $/;"	f	file:
+hook_return	pinTracer.cpp	/^static void hook_return( THREADID tid, $/;"	f	file:
+id	static/Registers.h	/^    const int id;$/;"	m	struct:absdomain::regs
+idoms	graph.h	/^    std::map<vertex_descriptor, vertex_descriptor> idoms;$/;"	m	class:Graph
+idoms_computed	graph.h	/^    bool idoms_computed;$/;"	m	class:Graph
+inWorklist	static/AbstractInterpreter.h	/^inline bool inWorklist(const BasicBlock &bb, const bb_list_t &wl) {$/;"	f	namespace:absinter
+in_edge_iterator	graph.h	/^    typedef typename boost::graph_traits<graph_t>::in_edge_iterator in_edge_iterator;$/;"	t	class:Graph
+inflateAlign	static/AbsDomStridedInterval.cpp	/^std::pair<int,int> inflateAlign(int lo, int hi, unsigned s) {$/;"	f	namespace:__anon2
+initCache	static/AbstractDomain.h	/^    static void initCache() {$/;"	f	class:absdomain::AbstractDomain
+inprog	pinTracer.cpp	/^static const char * inprog  = NULL;$/;"	v	file:
+inslen	PinDisasm.cpp	/^size_t inslen(ADDRINT addr) {$/;"	f
+inst_begin	cfg.h	/^    instructions_t::const_iterator inst_begin() const { $/;"	f	class:BasicBlock
+inst_end	cfg.h	/^    instructions_t::const_iterator inst_end() const {$/;"	f	class:BasicBlock
+instructions	cfg.h	/^    instructions_t    instructions;$/;"	m	class:BasicBlock
+instructions	static/static.cc	/^std::map<addr_t, Instruction *> instructions;$/;"	v
+instructions_t	types.h	/^typedef std::vector<Instruction *> instructions_t;$/;"	t
+instrument_image	pinTracer.cpp	/^static void instrument_image(IMG img, void *v) $/;"	f	file:
+instrument_thread	pinTracer.cpp	/^VOID instrument_thread(THREADID tid, CONTEXT *ctxt, INT32 flags, VOID *v) {$/;"	f
+instrument_trace	pinTracer.cpp	/^static void instrument_trace(TRACE trace, void *v) {$/;"	f	file:
+int32hash	static/HashFunctions.cpp	/^int32_t int32hash(const int32_t key) {$/;"	f	namespace:utils
+int64hash	static/HashFunctions.cpp	/^int64_t int64hash(const int64_t key) {$/;"	f	namespace:utils
+interesting_loops	InterProcCFG.h	/^    set<addr_t> interesting_loops;$/;"	m	class:InterProcCFG
+interproc	static/AbstractInterpreter.h	/^    bool interproc;$/;"	m	class:absinter::AbstractInterpreter
+inthash	static/HashFunctions.cpp	/^int inthash(const int key) {$/;"	f	namespace:utils
+ipcfg	InterProcCFG.h	/^    IPCFGraph ipcfg;$/;"	m	class:InterProcCFG
+ipostdoms	graph.h	/^    std::map<vertex_descriptor, vertex_descriptor> ipostdoms;$/;"	m	class:Graph
+ipostdoms_computed	graph.h	/^    bool ipostdoms_computed;$/;"	m	class:Graph
+isAlloc	static/AbstractInterpreter.h	/^inline const char *isAlloc(Instruction &i) {$/;"	f	namespace:absinter
+isAllocated	prog.h	/^    bool isAllocated() {$/;"	f	class:Section
+isBlacklisted	static/AbstractInterpreter.h	/^inline bool isBlacklisted(const Function &f) {$/;"	f	namespace:absinter
+isBot	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::isBot() const {$/;"	f	class:StridedInterval
+isCall	cfg.cpp	/^bool BasicBlock::isCall() {$/;"	f	class:BasicBlock
+isCall	instr.cpp	/^bool Instruction::isCall() {$/;"	f	class:Instruction
+isComponentEntry	bourdoncle_wto.h	/^    bool isComponentEntry(V v) {$/;"	f	class:WTO
+isComponentEntry	graph.h	/^    bool isComponentEntry(vertex_t v) {$/;"	f	class:Graph
+isConstant	static/AbsDomStridedInterval.h	/^    bool isConstant() const { return lo + (int)strd == hi; }$/;"	f	class:absdomain::StridedInterval
+isEntry	cfg.h	/^    bool isEntry(BasicBlock *bb) {$/;"	f	class:Cfg
+isExecuted	cfg.cpp	/^bool BasicBlock::isExecuted() {$/;"	f	class:BasicBlock
+isExecuted	cfg.cpp	/^bool Cfg::isExecuted(addr_t i) {$/;"	f	class:Cfg
+isExecuted	instr.cpp	/^bool Instruction::isExecuted() {$/;"	f	class:Instruction
+isExit	cfg.h	/^    bool isExit(BasicBlock *bb) {$/;"	f	class:Cfg
+isFalse	static/AbsDomStridedInterval.h	/^    bool isFalse() const { return lo == 0 && isConstant(); }$/;"	f	class:absdomain::StridedInterval
+isGlobal	static/AbsRegion.h	/^    bool isGlobal() const { $/;"	f	class:absdomain::Region
+isHeap	static/AbsRegion.h	/^    bool isHeap() const { $/;"	f	class:absdomain::Region
+isMaybe	static/AbstractDomain.h	/^    virtual bool isMaybe() const {$/;"	f	class:absdomain::AbstractDomain
+isPending	func.h	/^    bool isPending() { return pending; }$/;"	f	class:Function
+isPlt	prog.h	/^    bool isPlt(addr_t a) {$/;"	f	class:Prog
+isRegister	static/AbsRegion.h	/^    bool isRegister() const { $/;"	f	class:absdomain::Region
+isReturn	cfg.cpp	/^bool BasicBlock::isReturn() {$/;"	f	class:BasicBlock
+isReturn	instr.cpp	/^bool Instruction::isReturn() {$/;"	f	class:Instruction
+isStack	static/AbsRegion.h	/^    bool isStack() const { $/;"	f	class:absdomain::Region
+isStringFun	static/AbstractInterpreter.h	/^inline const char *isStringFun(Instruction &i) {$/;"	f	namespace:absinter
+isStronglyUpdatable	static/AbsRegion.h	/^    bool isStronglyUpdatable() const { return stronglyUpdatable(regty);}$/;"	f	class:absdomain::Region
+isSubComponentOf	bourdoncle_wto.h	/^    bool isSubComponentOf(V s, V c) {$/;"	f	class:WTO
+isSubComponentOf	graph.h	/^    bool isSubComponentOf(vertex_t s, vertex_t c) {$/;"	f	class:Graph
+isTop	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::isTop() const {$/;"	f	class:StridedInterval
+isTopOrBottom	static/AbstractDomain.h	/^    bool isTopOrBottom() const { return isTop() || isBot(); }$/;"	f	class:absdomain::AbstractDomain
+isTrue	static/AbsDomStridedInterval.h	/^    bool isTrue() const { return lo == 1 && isConstant(); }$/;"	f	class:absdomain::StridedInterval
+isWeaklyUpdatable	static/AbsRegion.h	/^    bool isWeaklyUpdatable() const { return weaklyUpdatable(regty); }$/;"	f	class:absdomain::Region
+isZero	static/AbsDomStridedInterval.h	/^    bool isZero() const { return lo == hi && lo == 0; }$/;"	f	class:absdomain::StridedInterval
+is_interesting_loop	InterProcCFG.cc	/^InterProcCFG::is_interesting_loop(addr_t addr,$/;"	f	class:InterProcCFG
+is_loop_exit_cond	InterProcCFG.cc	/^InterProcCFG::is_loop_exit_cond(BasicBlock *bb) {$/;"	f	class:InterProcCFG
+is_loop_exit_cond	InterProcCFG.cc	/^InterProcCFG::is_loop_exit_cond(addr_t branch_addr,$/;"	f	class:InterProcCFG
+islib	pinTracer.cpp	/^bool islib(ADDRINT addr) {$/;"	f
+ispicthunk	PinDisasm.cpp	/^byte_t ispicthunk(ADDRINT instptr) {$/;"	f
+isplt	pinTracer.cpp	/^bool isplt(ADDRINT addr) {$/;"	f
+it	bourdoncle_wto.h	/^	ordering_t_iterator it;$/;"	m	class:WTO::const_iterator
+it	bourdoncle_wto.h	/^	ordering_t_iterator it;$/;"	m	class:WTO::const_reverse_iterator
+iterator	Utilities.h	/^    typedef typename _Base::iterator iterator;$/;"	t	class:utils::Map
+iterator	Utilities.h	/^    typedef typename _Base::iterator iterator;$/;"	t	class:utils::Multimap
+iterator_category	bourdoncle_wto.h	/^        typedef std::random_access_iterator_tag iterator_category;$/;"	t	class:WTO::const_iterator
+iterator_category	bourdoncle_wto.h	/^        typedef std::random_access_iterator_tag iterator_category;$/;"	t	class:WTO::const_reverse_iterator
+iterator_category	graph.h	/^        typedef std::random_access_iterator_tag iterator_category;$/;"	t	class:Graph::const_edge_iterator
+iterator_category	graph.h	/^        typedef std::random_access_iterator_tag iterator_category;$/;"	t	class:Graph::const_pred_iterator
+iterator_category	graph.h	/^        typedef std::random_access_iterator_tag iterator_category;$/;"	t	class:Graph::const_succ_iterator
+iterator_category	graph.h	/^        typedef std::random_access_iterator_tag iterator_category;$/;"	t	class:Graph::const_vertex_iterator
+iterator_pair	Utilities.h	/^    typedef std::pair<iterator,iterator> iterator_pair;$/;"	t	class:utils::Map
+iterator_pair	Utilities.h	/^    typedef std::pair<iterator,iterator> iterator_pair;$/;"	t	class:utils::Multimap
+join	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::join(_Self& adp) {$/;"	f	class:StridedInterval
+join	static/AbsRegion.h	/^inline typename Region<T>::RegionPtr Region<T>::join(_Self& r) {$/;"	f	class:absdomain::Region
+join	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::join(_Self& s) {$/;"	f	class:absdomain::AbsState
+join	static/AbstractInterpreter.h	/^        StateTy>::join(StateVectorTy& v) {$/;"	f	class:absinter::AbstractInterpreter
+kind	InterProcCFG.h	/^    struct bb_ptr_t { typedef vertex_property_tag kind; };$/;"	t	struct:InterProcCFG::bb_ptr_t
+kind	InterProcCFG.h	/^    struct edge_type_t { typedef edge_property_tag kind; };$/;"	t	struct:InterProcCFG::edge_type_t
+kind	InterProcCFG.h	/^    struct paths_to_header_t { typedef vertex_property_tag kind; };$/;"	t	struct:InterProcCFG::paths_to_header_t
+knownId	static/AbsState.h	/^    bool knownId(RegionPtr p) {$/;"	f	class:absdomain::AbsState
+last_instruction	pinTracer.cpp	/^static ADDRINT last_instruction = 0;$/;"	v	file:
+last_program_instruction	static/RegionTest.cpp	/^addr_t last_program_instruction() { return 0; }$/;"	f
+last_program_instruction	static/static.cc	/^addr_t last_program_instruction() {$/;"	f
+lcm	Utilities.cpp	/^int lcm(int a, int b) {$/;"	f	namespace:utils
+leaveFunction	static/AbstractInterpreter.h	/^inline void AbstractInterpreter<S,V,St>::leaveFunction(const Function$/;"	f	class:absinter::AbstractInterpreter
+linkBasicBlocks	cfg.cpp	/^void Cfg::linkBasicBlocks(BasicBlock *sbb, BasicBlock *dbb) {$/;"	f	class:Cfg
+lo	static/AbsDomStridedInterval.h	/^    const int lo, hi;$/;"	m	class:absdomain::StridedInterval
+longrotl	static/HashFunctions.cpp	/^int64_t longrotl(int64_t x, int places) {$/;"	f	namespace:utils
+longrotr	static/HashFunctions.cpp	/^int64_t longrotr(int64_t x, int places) {$/;"	f	namespace:utils
+lookup_bb	InterProcCFG.cc	/^InterProcCFG::lookup_bb(addr_t addr,$/;"	f	class:InterProcCFG
+lookup_distance	InterProcCFG.cc	/^InterProcCFG::lookup_distance(addr_t source_addr,$/;"	f	class:InterProcCFG
+lookup_influence	InterProcCFG.cc	/^InterProcCFG::lookup_influence(addr_t addr,$/;"	f	class:InterProcCFG
+lookup_pth	InterProcCFG.cc	/^InterProcCFG::lookup_pth(addr_t addr,$/;"	f	class:InterProcCFG
+loops	graph.h	/^    void loops() {$/;"	f	class:Graph
+low	Utilities.h	/^    int low(T) const { return 0; }$/;"	f	struct:utils::Overlap
+low	static/AbsDomStridedInterval.h	/^    int low(absdomain::StridedIntervalPtr p) const {$/;"	f	struct:utils::Overlap
+low	static/AbsRegion.h	/^    int low(ALOCP p) const {$/;"	f	struct:utils::Overlap
+lrotate	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::lrotate(StridedInterval& i) {$/;"	f	class:StridedInterval
+lshift	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::lshift(StridedInterval& i) {$/;"	f	class:StridedInterval
+main	callgraph.h	/^    Function *main;$/;"	m	class:CallGraph
+main	pinTracer.cpp	/^int main(int argc, char * argv[])$/;"	f
+main	static/RegionTest.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	static/static.cc	/^int main(int argc, char **argv) {$/;"	f
+main_stackptr	pinTracer.cpp	/^static ADDRINT main_stackptr = 0;$/;"	v	file:
+mainexe	prog.h	/^    bool mainexe;$/;"	m	class:Module
+make_call_ret_edges	InterProcCFG.cc	/^InterProcCFG::make_call_ret_edges(Instruction *i, bool include_returns) {$/;"	f	class:InterProcCFG
+max	Utilities.cpp	/^int max(int x, int y) {$/;"	f	namespace:utils
+max	static/AbsRegion.h	/^    Max<boost::intrusive_ptr<T> > max;$/;"	m	struct:utils::Max
+maxOR	static/AbsDomStridedInterval.cpp	/^unsigned maxOR(unsigned a, unsigned b, unsigned c, unsigned d) {$/;"	f	namespace:__anon2
+meet	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::meet(_Self& sip) {$/;"	f	class:StridedInterval
+meet	static/AbsRegion.h	/^inline typename Region<T>::RegionPtr Region<T>::meet(_Self& r) {$/;"	f	class:absdomain::Region
+meet	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::meet(_Self& s) {$/;"	f	class:absdomain::AbsState
+meet	static/AbstractInterpreter.h	/^        StateTy>::meet(StateVectorTy& v) {$/;"	f	class:absinter::AbstractInterpreter
+min	Utilities.cpp	/^int min(int x, int y) {$/;"	f	namespace:utils
+minOR	static/AbsDomStridedInterval.cpp	/^unsigned minOR(unsigned a, unsigned b, unsigned c, unsigned d) {$/;"	f	namespace:__anon2
+mmap	static/AbsRegion.h	/^    static THREADLOCAL const MemMap* mmap;$/;"	m	class:absdomain::Region
+module	func.h	/^    std::string  module;$/;"	m	class:Function
+modulename	pinTracer.cpp	/^string modulename(ADDRINT addr) {$/;"	f
+modules	prog.h	/^    modules_t modules;$/;"	m	class:Prog
+modules_t	prog.h	/^typedef std::list<Module *> modules_t;$/;"	t
+name	func.h	/^    std::string  name;$/;"	m	class:Function
+name	prog.h	/^    std::string name;$/;"	m	class:Module
+name	prog.h	/^    std::string name;$/;"	m	class:Section
+name	static/Registers.h	/^    const char *name;$/;"	m	struct:absdomain::regs
+o	bourdoncle_wto.h	/^	const ordering_t *o;$/;"	m	class:WTO::const_iterator
+o	bourdoncle_wto.h	/^	const ordering_t *o;$/;"	m	class:WTO::const_reverse_iterator
+operator !=	bourdoncle_wto.h	/^        bool operator!=(const _Self& B) { $/;"	f	class:WTO::const_iterator
+operator !=	bourdoncle_wto.h	/^        bool operator!=(const _Self& B) { $/;"	f	class:WTO::const_reverse_iterator
+operator !=	graph.h	/^        bool operator!=(const _Self& B) { $/;"	f	class:Graph::const_edge_iterator
+operator !=	graph.h	/^        bool operator!=(const _Self& B) { $/;"	f	class:Graph::const_pred_iterator
+operator !=	graph.h	/^        bool operator!=(const _Self& B) { $/;"	f	class:Graph::const_succ_iterator
+operator !=	graph.h	/^        bool operator!=(const _Self& B) { $/;"	f	class:Graph::const_vertex_iterator
+operator !=	static/AbsDomStridedInterval.h	/^    bool operator!=(const StridedInterval& a) const {$/;"	f	class:absdomain::StridedInterval
+operator !=	static/AbsRegion.h	/^inline bool operator!=(const Region<T>& a, const Region<T>& b) {$/;"	f	namespace:absdomain
+operator !=	static/AbsState.h	/^    bool operator!=(const _Self& a) const {$/;"	f	class:absdomain::AbsState
+operator &	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::operator&(StridedInterval& i){$/;"	f	class:StridedInterval
+operator ()	Utilities.h	/^    bool operator()(T, T) const { return false; }$/;"	f	struct:utils::Overlap
+operator ()	Utilities.h	/^    const result_type &operator()(const Pair &p) const { $/;"	f	struct:utils::select1st
+operator ()	Utilities.h	/^    const result_type &operator()(const Pair &p) const { $/;"	f	struct:utils::select2nd
+operator ()	Utilities.h	/^    int operator()(T a) const { (void)a; return 0; }$/;"	f	struct:utils::Max
+operator ()	Utilities.h	/^    int operator()(T a, T b) const {$/;"	f	struct:utils::Cmp
+operator ()	Utilities.h	/^    int operator()(T a, T b) const {$/;"	f	struct:utils::Equal
+operator ()	Utilities.h	/^    int operator()(T a, int b, int c) const {$/;"	f	struct:utils::Max
+operator ()	Utilities.h	/^    size_t operator()(T e) const {$/;"	f	struct:utils::Hash
+operator ()	Utilities.h	/^    std::size_t operator()(const T *const x) const {$/;"	f	struct:utils::Hash
+operator ()	dataflow.h	/^  bool operator()(const def_t &d1, const def_t &d2) const {$/;"	f	struct:defcmp
+operator ()	static/AbsDomStridedInterval.h	/^    bool operator()(absdomain::StridedIntervalPtr a,$/;"	f	struct:utils::Overlap
+operator ()	static/AbsDomStridedInterval.h	/^    int operator()(absdomain::StridedIntervalPtr a) const {$/;"	f	struct:utils::Max
+operator ()	static/AbsDomStridedInterval.h	/^    int operator()(absdomain::StridedIntervalPtr a,$/;"	f	struct:utils::Cmp
+operator ()	static/AbsDomStridedInterval.h	/^    int operator()(absdomain::StridedIntervalPtr a,$/;"	f	struct:utils::Max
+operator ()	static/AbsDomStridedInterval.h	/^    std::size_t operator()(absdomain::StridedIntervalPtr p) const {$/;"	f	struct:utils::Hash
+operator ()	static/AbsRegion.h	/^    bool operator()(ALOCP a, ALOCP b) const {$/;"	f	struct:utils::Equal
+operator ()	static/AbsRegion.h	/^    bool operator()(ALOCP a, ALOCP b) const {$/;"	f	struct:utils::Overlap
+operator ()	static/AbsRegion.h	/^    bool operator()(REGION a, REGION b) const {$/;"	f	struct:utils::Equal
+operator ()	static/AbsRegion.h	/^    int operator()(ALOCP a, ALOCP b) const {$/;"	f	struct:utils::Cmp
+operator ()	static/AbsRegion.h	/^    int operator()(ALOCP a, int x, int y) const {$/;"	f	struct:utils::Max
+operator ()	static/AbsRegion.h	/^    int operator()(ALOCP p) const {$/;"	f	struct:utils::Max
+operator ()	static/AbsRegion.h	/^    int operator()(REGION a, REGION b) const {$/;"	f	struct:utils::Cmp
+operator ()	static/AbsRegion.h	/^    std::size_t operator()(ALOCP p) const {$/;"	f	struct:utils::Hash
+operator ()	static/AbsRegion.h	/^    std::size_t operator()(REGION r) const {$/;"	f	struct:utils::Hash
+operator ()	static/AbsRegion.h	/^inline bool Region<T>::LessOrEqual::operator()(const ContentPair& a,$/;"	f	class:absdomain::Region::LessOrEqual
+operator *	bourdoncle_wto.h	/^        reference operator*() const { $/;"	f	class:WTO::const_iterator
+operator *	bourdoncle_wto.h	/^        reference operator*() const { $/;"	f	class:WTO::const_reverse_iterator
+operator *	graph.h	/^        reference operator*() const { $/;"	f	class:Graph::const_edge_iterator
+operator *	graph.h	/^        reference operator*() const { $/;"	f	class:Graph::const_pred_iterator
+operator *	graph.h	/^        reference operator*() const { $/;"	f	class:Graph::const_succ_iterator
+operator *	graph.h	/^        reference operator*() const { $/;"	f	class:Graph::const_vertex_iterator
+operator *	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::operator*(StridedInterval& i){$/;"	f	class:StridedInterval
+operator +	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::operator+(StridedInterval& i){$/;"	f	class:StridedInterval
+operator +	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::operator+(int offset) {$/;"	f	class:StridedInterval
+operator ++	bourdoncle_wto.h	/^        _Self &operator++() { $/;"	f	class:WTO::const_iterator
+operator ++	bourdoncle_wto.h	/^        _Self &operator++() { $/;"	f	class:WTO::const_reverse_iterator
+operator ++	bourdoncle_wto.h	/^        _Self operator++(int) { $/;"	f	class:WTO::const_iterator
+operator ++	bourdoncle_wto.h	/^        _Self operator++(int) { $/;"	f	class:WTO::const_reverse_iterator
+operator ++	graph.h	/^        _Self &operator++() { $/;"	f	class:Graph::const_edge_iterator
+operator ++	graph.h	/^        _Self &operator++() { $/;"	f	class:Graph::const_pred_iterator
+operator ++	graph.h	/^        _Self &operator++() { $/;"	f	class:Graph::const_succ_iterator
+operator ++	graph.h	/^        _Self &operator++() { $/;"	f	class:Graph::const_vertex_iterator
+operator ++	graph.h	/^        _Self operator++(int) { $/;"	f	class:Graph::const_edge_iterator
+operator ++	graph.h	/^        _Self operator++(int) { $/;"	f	class:Graph::const_pred_iterator
+operator ++	graph.h	/^        _Self operator++(int) { $/;"	f	class:Graph::const_succ_iterator
+operator ++	graph.h	/^        _Self operator++(int) { $/;"	f	class:Graph::const_vertex_iterator
+operator ++	static/AbsDomStridedInterval.h	/^    StridedIntervalPtr operator++() {$/;"	f	class:absdomain::StridedInterval
+operator -	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::operator-() {$/;"	f	class:StridedInterval
+operator -	static/AbsDomStridedInterval.h	/^    StridedIntervalPtr operator-(StridedInterval& i) {$/;"	f	class:absdomain::StridedInterval
+operator -	static/AbsDomStridedInterval.h	/^    StridedIntervalPtr operator-(int offset) {$/;"	f	class:absdomain::StridedInterval
+operator --	bourdoncle_wto.h	/^        _Self &operator--() { $/;"	f	class:WTO::const_iterator
+operator --	bourdoncle_wto.h	/^        _Self &operator--() { $/;"	f	class:WTO::const_reverse_iterator
+operator --	bourdoncle_wto.h	/^        _Self operator--(int) { $/;"	f	class:WTO::const_iterator
+operator --	bourdoncle_wto.h	/^        _Self operator--(int) { $/;"	f	class:WTO::const_reverse_iterator
+operator --	graph.h	/^        _Self &operator--() { $/;"	f	class:Graph::const_edge_iterator
+operator --	graph.h	/^        _Self &operator--() { $/;"	f	class:Graph::const_pred_iterator
+operator --	graph.h	/^        _Self &operator--() { $/;"	f	class:Graph::const_succ_iterator
+operator --	graph.h	/^        _Self &operator--() { $/;"	f	class:Graph::const_vertex_iterator
+operator --	graph.h	/^        _Self operator--(int) { $/;"	f	class:Graph::const_edge_iterator
+operator --	graph.h	/^        _Self operator--(int) { $/;"	f	class:Graph::const_pred_iterator
+operator --	graph.h	/^        _Self operator--(int) { $/;"	f	class:Graph::const_succ_iterator
+operator --	graph.h	/^        _Self operator--(int) { $/;"	f	class:Graph::const_vertex_iterator
+operator --	static/AbsDomStridedInterval.h	/^    StridedIntervalPtr operator--() {$/;"	f	class:absdomain::StridedInterval
+operator ->	bourdoncle_wto.h	/^        pointer operator->() const { $/;"	f	class:WTO::const_iterator
+operator ->	bourdoncle_wto.h	/^        pointer operator->() const { $/;"	f	class:WTO::const_reverse_iterator
+operator ->	graph.h	/^        pointer operator->() const { $/;"	f	class:Graph::const_edge_iterator
+operator ->	graph.h	/^        pointer operator->() const { $/;"	f	class:Graph::const_pred_iterator
+operator ->	graph.h	/^        pointer operator->() const { $/;"	f	class:Graph::const_succ_iterator
+operator ->	graph.h	/^        pointer operator->() const { $/;"	f	class:Graph::const_vertex_iterator
+operator <	bourdoncle_wto.h	/^        bool operator<(const _Self& B) { $/;"	f	class:WTO::const_iterator
+operator <	bourdoncle_wto.h	/^        bool operator<(const _Self& B) { $/;"	f	class:WTO::const_reverse_iterator
+operator <	graph.h	/^        bool operator<(const _Self& B) { $/;"	f	class:Graph::const_edge_iterator
+operator <	graph.h	/^        bool operator<(const _Self& B) { $/;"	f	class:Graph::const_pred_iterator
+operator <	graph.h	/^        bool operator<(const _Self& B) { $/;"	f	class:Graph::const_succ_iterator
+operator <	graph.h	/^        bool operator<(const _Self& B) { $/;"	f	class:Graph::const_vertex_iterator
+operator <	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::operator<(const StridedInterval& a) const {$/;"	f	class:StridedInterval
+operator <<	cfg.cpp	/^std::ostream& operator<<(std::ostream& os, const BasicBlock& B) {$/;"	f
+operator <<	instr.cpp	/^std::ostream& operator<<(std::ostream& os, const Instruction& I){$/;"	f
+operator <<	static/AbsRegion.h	/^inline std::ostream& operator<<(std::ostream& os, const ALOCP& p) {$/;"	f	namespace:utils
+operator <<	static/AbsRegion.h	/^inline std::ostream& operator<<(std::ostream& os, const Region<T>& r) {$/;"	f	namespace:absdomain
+operator <<	static/AbsState.h	/^inline std::ostream& operator<<(std::ostream& os, const AbsState<T>& s){$/;"	f	namespace:absdomain
+operator <<	static/AbstractDomain.h	/^inline std::ostream& operator<<(std::ostream& os, const$/;"	f	namespace:absdomain
+operator <=	bourdoncle_wto.h	/^        bool operator<=(const _Self& B) { $/;"	f	class:WTO::const_iterator
+operator <=	bourdoncle_wto.h	/^        bool operator<=(const _Self& B) { $/;"	f	class:WTO::const_reverse_iterator
+operator <=	graph.h	/^        bool operator<=(const _Self& B) { $/;"	f	class:Graph::const_edge_iterator
+operator <=	graph.h	/^        bool operator<=(const _Self& B) { $/;"	f	class:Graph::const_pred_iterator
+operator <=	graph.h	/^        bool operator<=(const _Self& B) { $/;"	f	class:Graph::const_succ_iterator
+operator <=	graph.h	/^        bool operator<=(const _Self& B) { $/;"	f	class:Graph::const_vertex_iterator
+operator <=	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::operator<=(const StridedInterval& a) const {$/;"	f	class:StridedInterval
+operator ==	bourdoncle_wto.h	/^        bool operator==(const _Self& B) { $/;"	f	class:WTO::const_iterator
+operator ==	bourdoncle_wto.h	/^        bool operator==(const _Self& B) { $/;"	f	class:WTO::const_reverse_iterator
+operator ==	graph.h	/^        bool operator==(const _Self& B) { $/;"	f	class:Graph::const_edge_iterator
+operator ==	graph.h	/^        bool operator==(const _Self& B) { $/;"	f	class:Graph::const_pred_iterator
+operator ==	graph.h	/^        bool operator==(const _Self& B) { $/;"	f	class:Graph::const_succ_iterator
+operator ==	graph.h	/^        bool operator==(const _Self& B) { $/;"	f	class:Graph::const_vertex_iterator
+operator ==	static/AbsDomStridedInterval.h	/^    bool operator==(const StridedInterval& a) const {$/;"	f	class:absdomain::StridedInterval
+operator ==	static/AbsRegion.h	/^inline bool operator==(const Region<T>& a, const Region<T>& b) {$/;"	f	namespace:absdomain
+operator ==	static/AbsState.h	/^    bool operator==(const _Self& a) const {$/;"	f	class:absdomain::AbsState
+operator >	bourdoncle_wto.h	/^        bool operator>(const _Self& B) { $/;"	f	class:WTO::const_iterator
+operator >	bourdoncle_wto.h	/^        bool operator>(const _Self& B) { $/;"	f	class:WTO::const_reverse_iterator
+operator >	graph.h	/^        bool operator>(const _Self& B) { $/;"	f	class:Graph::const_edge_iterator
+operator >	graph.h	/^        bool operator>(const _Self& B) { $/;"	f	class:Graph::const_pred_iterator
+operator >	graph.h	/^        bool operator>(const _Self& B) { $/;"	f	class:Graph::const_succ_iterator
+operator >	graph.h	/^        bool operator>(const _Self& B) { $/;"	f	class:Graph::const_vertex_iterator
+operator >	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::operator>(const StridedInterval& a) const {$/;"	f	class:StridedInterval
+operator >=	bourdoncle_wto.h	/^        bool operator>=(const _Self& B) { $/;"	f	class:WTO::const_iterator
+operator >=	bourdoncle_wto.h	/^        bool operator>=(const _Self& B) { $/;"	f	class:WTO::const_reverse_iterator
+operator >=	graph.h	/^        bool operator>=(const _Self& B) { $/;"	f	class:Graph::const_edge_iterator
+operator >=	graph.h	/^        bool operator>=(const _Self& B) { $/;"	f	class:Graph::const_pred_iterator
+operator >=	graph.h	/^        bool operator>=(const _Self& B) { $/;"	f	class:Graph::const_succ_iterator
+operator >=	graph.h	/^        bool operator>=(const _Self& B) { $/;"	f	class:Graph::const_vertex_iterator
+operator >=	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::operator>=(const StridedInterval& a) const {$/;"	f	class:StridedInterval
+operator ^	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::operator^(StridedInterval& i){$/;"	f	class:StridedInterval
+operator |	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::operator|(StridedInterval& i){$/;"	f	class:StridedInterval
+operator ~	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::operator~() {$/;"	f	class:StridedInterval
+ordering	bourdoncle_wto.h	/^    ordering_t ordering;$/;"	m	class:WTO
+ordering_t	bourdoncle_wto.h	/^    typedef typename std::list<component_t> ordering_t;$/;"	t	class:WTO
+ordering_t_iterator	bourdoncle_wto.h	/^	typedef typename std::list<component_t>::const_iterator ordering_t_iterator;$/;"	t	class:WTO::const_iterator
+ordering_t_iterator	bourdoncle_wto.h	/^	typedef typename std::list<component_t>::const_reverse_iterator ordering_t_iterator;$/;"	t	class:WTO::const_reverse_iterator
+out_edge_iterator	graph.h	/^    typedef typename boost::graph_traits<graph_t>::out_edge_iterator out_edge_iterator;$/;"	t	class:Graph
+out_edge_range_t	graph.h	/^    typedef std::pair<out_edge_iterator, out_edge_iterator> out_edge_range_t;$/;"	t	class:Graph
+outprog	pinTracer.cpp	/^static const char * outprog = NULL;$/;"	v	file:
+overlaps	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::overlaps(const StridedInterval& i) const {$/;"	f	class:StridedInterval
+parse_arguments	pinTracer.cpp	/^static void parse_arguments(int argc, char * argv[])$/;"	f	file:
+patchpicthunk	PinDisasm.cpp	/^bool patchpicthunk(ADDRINT instrptr, ADDRINT funcaddr, Instruction *I) {$/;"	f
+paths_to_header_t	InterProcCFG.h	/^    struct paths_to_header_t { typedef vertex_property_tag kind; };$/;"	s	class:InterProcCFG
+pending	func.h	/^    bool pending;$/;"	m	class:Function
+pointer	bourdoncle_wto.h	/^        typedef const V               *pointer;$/;"	t	class:WTO::const_iterator
+pointer	bourdoncle_wto.h	/^        typedef const V               *pointer;$/;"	t	class:WTO::const_reverse_iterator
+pointer	graph.h	/^        typedef const edge_t        *pointer;$/;"	t	class:Graph::const_edge_iterator
+pointer	graph.h	/^        typedef const vertex_t        *pointer;$/;"	t	class:Graph::const_pred_iterator
+pointer	graph.h	/^        typedef const vertex_t        *pointer;$/;"	t	class:Graph::const_succ_iterator
+pointer	graph.h	/^        typedef const vertex_t        *pointer;$/;"	t	class:Graph::const_vertex_iterator
+postVisit	static/AbstractInterpreter.h	/^inline void AbstractInterpreter<S, V, St>::postVisit(BasicBlock &bb, $/;"	f	class:absinter::AbstractInterpreter
+preVisit	static/AbstractInterpreter.h	/^inline bool AbstractInterpreter<S, V, St>::preVisit(BasicBlock &bb,$/;"	f	class:absinter::AbstractInterpreter
+pred_begin	graph.h	/^    const_pred_iterator pred_begin(vertex_descriptor v) const { $/;"	f	class:Graph
+pred_begin	graph.h	/^    const_pred_iterator pred_begin(vertex_t v) const {$/;"	f	class:Graph
+pred_end	graph.h	/^    const_pred_iterator pred_end(vertex_descriptor v) const {$/;"	f	class:Graph
+pred_end	graph.h	/^    const_pred_iterator pred_end(vertex_t v) const {$/;"	f	class:Graph
+print	static/AbsDomStridedInterval.cpp	/^void StridedInterval::print(std::ostream& os) const {$/;"	f	class:StridedInterval
+print	static/AbsRegion.h	/^inline void Region<T>::print(std::ostream& os) const {$/;"	f	class:absdomain::Region
+print	static/AbsState.h	/^inline void AbsState<T>::print(std::ostream& os) const {$/;"	f	class:absdomain::AbsState
+print	static/AbstractDomain.h	/^inline void AbstractDomain<T>::print() const {$/;"	f	class:absdomain::AbstractDomain
+printWorklist	static/AbstractInterpreter.h	/^inline void printWorklist(const bb_list_t &wl) {$/;"	f	namespace:absinter
+prog	InterProcCFG.cc	/^Prog prog, prog_bis;$/;"	v
+prog	func.h	/^    Prog         *prog;$/;"	m	class:Function
+prog	pinTracer.cpp	/^static Prog prog;$/;"	v	file:
+prog	static/static.cc	/^static Prog prog;$/;"	v	file:
+prog_bis	InterProcCFG.cc	/^Prog prog, prog_bis;$/;"	v
+prototype	func.h	/^    std::string  prototype;$/;"	m	class:Function
+putComponentInWorklist	static/AbstractInterpreter.h	/^       St>::putComponentInWorklist(BasicBlock &bb, bb_list_t &wlist,$/;"	f	class:absinter::AbstractInterpreter
+range_t	types.h	/^typedef std::pair<addr_t, addr_t> range_t;$/;"	t
+rawbytes	instr.h	/^    byte_t   rawbytes[MAX_INSTR_LEN];$/;"	m	class:Instruction
+rbegin	bourdoncle_wto.h	/^    const_reverse_iterator rbegin() const { $/;"	f	class:WTO
+rbegin	bourdoncle_wto.h	/^    const_reverse_iterator rbegin(V v) const { $/;"	f	class:WTO
+rbt	static/AbsRegion.h	/^    RBTreePtr rbt;$/;"	m	class:absdomain::Region
+rbt	static/AbsState.h	/^    RBTreePtr rbt;$/;"	m	class:absdomain::AbsState
+read	static/AbsRegion.h	/^    VSetPtr read(reg::RegEnumTy ty) {$/;"	f	class:absdomain::Region
+read	static/AbsRegion.h	/^inline typename Region<T>::VSetPtr Region<T>::read(TPtr p) const {$/;"	f	class:absdomain::Region
+read	static/AbsState.h	/^    VSetPtr read(reg::RegEnumTy ty) {$/;"	f	class:absdomain::AbsState
+read	static/AbsState.h	/^inline boost::intrusive_ptr<ValueSet<T> > AbsState<T>::read(AlocPair p){$/;"	f	class:absdomain::AbsState
+read	static/AbsState.h	/^inline boost::intrusive_ptr<ValueSet<T> > AbsState<T>::read(VSetPtr$/;"	f	class:absdomain::AbsState
+reference	bourdoncle_wto.h	/^        typedef const V               &reference;$/;"	t	class:WTO::const_iterator
+reference	bourdoncle_wto.h	/^        typedef const V               &reference;$/;"	t	class:WTO::const_reverse_iterator
+reference	graph.h	/^        typedef const edge_t        &reference;$/;"	t	class:Graph::const_edge_iterator
+reference	graph.h	/^        typedef const vertex_t        &reference;$/;"	t	class:Graph::const_pred_iterator
+reference	graph.h	/^        typedef const vertex_t        &reference;$/;"	t	class:Graph::const_succ_iterator
+reference	graph.h	/^        typedef const vertex_t        &reference;$/;"	t	class:Graph::const_vertex_iterator
+reg	static/Registers.h	/^namespace reg {$/;"	n	namespace:absdomain
+regLookup	static/Registers.cpp	/^const struct regs* regLookup(const char* regName) {$/;"	f	namespace:absdomain
+regs	static/Registers.h	/^const static struct regs {$/;"	s	namespace:absdomain
+regs	static/Registers.h	/^} regs[] = {$/;"	m	namespace:absdomain	typeref:struct:absdomain::regs
+rem	static/AbsDomStridedInterval.cpp	/^int rem(int d, unsigned m) {$/;"	f	namespace:__anon2
+removeSelfLoops	cfg.cpp	/^void Cfg::removeSelfLoops() {$/;"	f	class:Cfg
+removeStack	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::removeStack() {$/;"	f	class:absdomain::AbsState
+remove_call_edges_from_g1	InterProcCFG.cc	/^void InterProcCFG::remove_call_edges_from_g1() {$/;"	f	class:InterProcCFG
+remove_ret_edges_from_g2	InterProcCFG.cc	/^void InterProcCFG::remove_ret_edges_from_g2() {$/;"	f	class:InterProcCFG
+rend	bourdoncle_wto.h	/^    const_reverse_iterator rend() const { $/;"	f	class:WTO
+rend	bourdoncle_wto.h	/^    const_reverse_iterator rend(V v) const { $/;"	f	class:WTO
+replaceHeap	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::replaceHeap(int id, RegionPtr r) {$/;"	f	class:absdomain::AbsState
+replaceRegister	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::replaceRegister(RegionPtr r) {$/;"	f	class:absdomain::AbsState
+replaceStack	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::replaceStack(RegionPtr r) {$/;"	f	class:absdomain::AbsState
+restrictLowerBound	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::restrictLowerBound(int x) const {$/;"	f	class:StridedInterval
+restrictUpperBound	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::restrictUpperBound(int x) const {$/;"	f	class:StridedInterval
+result_type	Utilities.h	/^    typedef typename Pair::first_type result_type;$/;"	t	struct:utils::select1st
+result_type	Utilities.h	/^    typedef typename Pair::second_type result_type ;$/;"	t	struct:utils::select2nd
+rotl	static/HashFunctions.cpp	/^unsigned int rotl(unsigned int x, int places) {$/;"	f	namespace:utils
+rotr	static/HashFunctions.cpp	/^unsigned int rotr(unsigned int x, int places) {$/;"	f	namespace:utils
+rrotate	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::rrotate(StridedInterval& i) {$/;"	f	class:StridedInterval
+rshift	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::rshift(StridedInterval& i) {$/;"	f	class:StridedInterval
+rwiden	static/AbstractInterpreter.h	/^    StatePtr rwiden(StatePtr, StatePtr) {$/;"	f	class:absinter::AbstractInterpreter
+same_bb	InterProcCFG.cc	/^InterProcCFG::same_bb(addr_t addr1, addr_t addr2,$/;"	f	class:InterProcCFG
+sanityCheck	cfg.cpp	/^void Cfg::sanityCheck(bool aggressive) {$/;"	f	class:Cfg
+sdivide	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::sdivide(StridedInterval& i) {$/;"	f	class:StridedInterval
+sec_begin	prog.h	/^    sections_t::const_iterator sec_begin() const { $/;"	f	class:Prog
+sec_end	prog.h	/^    sections_t::const_iterator sec_end() const { $/;"	f	class:Prog
+sections	prog.h	/^    sections_t sections;$/;"	m	class:Prog
+sections_t	prog.h	/^typedef std::list<Section *> sections_t;$/;"	t
+select1st	Utilities.h	/^struct select1st {$/;"	s	namespace:utils
+select2nd	Utilities.h	/^struct select2nd {$/;"	s	namespace:utils
+serialize	callgraph.h	/^    void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:CallGraph
+serialize	callgraph.h	/^    void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:CallGraphEdge
+serialize	cfg.h	/^	void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:BasicBlock
+serialize	cfg.h	/^    void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:BasicBlockEdge
+serialize	cfg.h	/^    void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:Cfg
+serialize	func.h	/^	void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:Function
+serialize	graph.h	/^    void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:Graph
+serialize	instr.h	/^	void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:Instruction
+serialize	prog.h	/^    void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:Module
+serialize	prog.h	/^    void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:Prog
+serialize	prog.h	/^    void serialize(Archive & ar, const unsigned int version) {$/;"	f	class:Section
+serialize	serialize.cpp	/^void serialize(const char *f, const Prog &prog) {$/;"	f
+setAddress	cfg.h	/^    void setAddress(addr_t a) { address = a; }$/;"	f	class:BasicBlock
+setAddress	func.h	/^    void setAddress(addr_t a) { address = a; }$/;"	f	class:Function
+setAddress	instr.h	/^    void setAddress(addr_t a) { address = a; }$/;"	f	class:Instruction
+setEntry	cfg.h	/^    void setEntry(BasicBlock *b) {$/;"	f	class:Cfg
+setEntry	graph.h	/^    void setEntry(const vertex_t v) {$/;"	f	class:Graph
+setExecuted	cfg.cpp	/^void Cfg::setExecuted(addr_t i) {$/;"	f	class:Cfg
+setExecuted	instr.cpp	/^void Instruction::setExecuted() {$/;"	f	class:Instruction
+setInterproc	static/AbstractInterpreter.h	/^    void setInterproc(bool b) {$/;"	f	class:absinter::AbstractInterpreter
+setMain	callgraph.h	/^    void setMain(Function *m) { main = m; callgraph_t::setEntry(m); }$/;"	f	class:CallGraph
+setMemMap	static/AbsRegion.h	/^    static void setMemMap(const MemMap* m) { mmap = m; }$/;"	f	class:absdomain::Region
+setModule	func.h	/^    void setModule(const char *m) { module = m; }$/;"	f	class:Function
+setName	func.h	/^    void setName(const char *n) { name = n; }$/;"	f	class:Function
+setPending	func.h	/^    void setPending(bool b) { pending = b; }$/;"	f	class:Function
+setProg	func.h	/^    void setProg(Prog *p) { prog = p; }$/;"	f	class:Function
+setRawBytes	instr.cpp	/^void Instruction::setRawBytes(const byte_t *b, size_t s) {$/;"	f	class:Instruction
+setSize	func.h	/^    void setSize(size_t s) { size = s; }$/;"	f	class:Function
+set_target_addr	InterProcCFG.cc	/^void InterProcCFG::set_target_addr(addr_t target_addr,$/;"	f	class:InterProcCFG
+set_target_warning	InterProcCFG.cc	/^void InterProcCFG::set_target_warning(Warning *w,$/;"	f	class:InterProcCFG
+shrinkAlign	static/AbsDomStridedInterval.cpp	/^std::pair<int,int> shrinkAlign(int lo, int hi, unsigned s) {$/;"	f	namespace:__anon2
+shutdown	static/AbsRegion.h	/^    static void shutdown() { RBTree::shutdown(); }$/;"	f	class:absdomain::Region
+shutdown	static/AbstractDomain.h	/^    static void shutdown() { delete cache; cache = 0; }$/;"	f	class:absdomain::AbstractDomain
+size	cfg.h	/^    size_t            size;$/;"	m	class:BasicBlock
+size	func.h	/^    size_t       size;$/;"	m	class:Function
+size	instr.h	/^    size_t   size;$/;"	m	class:Instruction
+size	prog.h	/^    size_t size;$/;"	m	class:Module
+size	prog.h	/^    size_t size;$/;"	m	class:Section
+size	static/AbsRegion.h	/^    StridedIntervalPtr size;$/;"	m	class:absdomain::Region
+size	static/Registers.h	/^    const int size;$/;"	m	struct:absdomain::regs
+skiplibs	pinTracer.cpp	/^static bool skiplibs = true;$/;"	v	file:
+smod	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::smod(StridedInterval& i) {$/;"	f	class:StridedInterval
+source	callgraph.h	/^    Function *source;$/;"	m	class:CallGraphEdge
+source	cfg.h	/^    BasicBlock *source;$/;"	m	class:BasicBlockEdge
+split	static/AbsDomStridedInterval.cpp	/^void StridedInterval::split(const SIPtrVector& a, const SIPtrVector& b,$/;"	f	class:StridedInterval
+split	static/AbsDomStridedInterval.h	/^    void split(const SIPtrVector& v, SIPNVector& s) {$/;"	f	class:absdomain::StridedInterval
+split	static/AbsRegion.h	/^inline void Region<T>::split(_Self& with, $/;"	f	class:absdomain::Region
+split	static/AbstractDomain.h	/^    virtual void split(const DomainPtrVec&, DomainSplitVec&) {}$/;"	f	class:absdomain::AbstractDomain
+splitBasicBlock	cfg.cpp	/^BasicBlock *Cfg::splitBasicBlock(BasicBlock *oldbb, addr_t before) {$/;"	f	class:Cfg
+split_iterator	static/AbsRegion.h	/^    typedef typename PairVector::const_iterator split_iterator;$/;"	t	class:absdomain::Region
+splt	static/AbstractDomain.h	/^namespace splt {$/;"	n	namespace:absdomain
+stack__t	bourdoncle_wto.h	/^typedef std::list<unsigned int> stack__t;$/;"	t
+stackptr	callstack.h	/^  void *stackptr;$/;"	m	struct:__anon1
+state_iterator	static/AbstractInterpreter.h	/^    typedef typename StateVectorTy::iterator state_iterator;$/;"	t	class:absinter::AbstractInterpreter
+statements	instr.h	/^    statements_t statements;$/;"	m	class:Instruction
+statements_t	instr.h	/^typedef std::vector<vine::Stmt *> statements_t;$/;"	t
+stmt_begin	instr.cpp	/^statements_t::const_iterator Instruction::stmt_begin() const {$/;"	f	class:Instruction
+stmt_end	instr.cpp	/^statements_t::const_iterator Instruction::stmt_end() const {$/;"	f	class:Instruction
+stmt_rbegin	instr.cpp	/^statements_t::const_reverse_iterator Instruction::stmt_rbegin() const {$/;"	f	class:Instruction
+stmt_rend	instr.cpp	/^statements_t::const_reverse_iterator Instruction::stmt_rend() const {$/;"	f	class:Instruction
+strd	static/AbsDomStridedInterval.h	/^    const unsigned strd;$/;"	m	class:absdomain::StridedInterval
+stringhash	static/HashFunctions.cpp	/^int64_t stringhash(const std::string& str) {$/;"	f	namespace:utils
+strong2weak	static/AbsRegion.h	/^inline rg::RegionTy Region<T>::strong2weak(rg::RegionTy ty) {$/;"	f	class:absdomain::Region
+stronglyUpdatable	static/AbsRegion.h	/^inline bool Region<T>::stronglyUpdatable(rg::RegionTy ty) {$/;"	f	class:absdomain::Region
+sub_components	bourdoncle_wto.h	/^    std::map<V, std::list<V> > sub_components;$/;"	m	class:WTO
+subgraph_map	InterProcCFG.h	/^    typedef map<string, vector<IPCFGNode> > subgraph_map;$/;"	t	class:InterProcCFG
+subgraphs	InterProcCFG.h	/^    subgraph_map subgraphs;$/;"	m	class:InterProcCFG
+subsumedBy	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::subsumedBy(const StridedInterval& a) const {$/;"	f	class:StridedInterval
+subsumedBy	static/AbsRegion.h	/^    bool subsumedBy(const _Self& a) const { return a.subsumes(*this); }$/;"	f	class:absdomain::Region
+subsumedBy	static/AbsState.h	/^    bool subsumedBy(const _Self& a) const { return a.subsumes(*this); }$/;"	f	class:absdomain::AbsState
+subsumes	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::subsumes(const StridedInterval& a) const {$/;"	f	class:StridedInterval
+subsumes	static/AbsRegion.h	/^inline bool Region<T>::subsumes(const _Self& r) const {$/;"	f	class:absdomain::Region
+subsumes	static/AbsState.h	/^inline bool AbsState<T>::subsumes(const _Self& s) const {$/;"	f	class:absdomain::AbsState
+succ_begin	graph.h	/^    const_succ_iterator succ_begin(vertex_descriptor v) const { $/;"	f	class:Graph
+succ_begin	graph.h	/^    const_succ_iterator succ_begin(vertex_t v) const {$/;"	f	class:Graph
+succ_end	graph.h	/^    const_succ_iterator succ_end(vertex_descriptor v) const {$/;"	f	class:Graph
+succ_end	graph.h	/^    const_succ_iterator succ_end(vertex_t v) const {$/;"	f	class:Graph
+target	callgraph.h	/^    Function *target;$/;"	m	class:CallGraphEdge
+target	cfg.h	/^    BasicBlock *target;$/;"	m	class:BasicBlockEdge
+target_node	InterProcCFG.h	/^    IPCFGNode target_node;$/;"	m	class:InterProcCFG
+temps	static/AbstractInterpreter.h	/^    TempMapTy temps;$/;"	m	class:absinter::AbstractInterpreter
+threadid	pinTracer.cpp	/^static ADDRINT threadid = 0;$/;"	v	file:
+timeout	static/static.cc	/^void timeout(int a) {$/;"	f
+tlz	Utilities.cpp	/^int tlz(unsigned x) {$/;"	f	namespace:utils
+to_vcg	InterProcCFG.cc	/^InterProcCFG::to_vcg(ostream &out) {$/;"	f	class:InterProcCFG
+tostring	prog.h	/^    std::string tostring() {$/;"	f	class:Prog
+trace	flowStitch.sh	/^trace() {$/;"	f
+ud_chain_t	dataflow.h	/^typedef std::map<Instruction *, def_set_t> ud_chain_t;$/;"	t
+udivide	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::udivide(StridedInterval& i) {$/;"	f	class:StridedInterval
+umax	Utilities.cpp	/^unsigned umax(unsigned x, unsigned y) {$/;"	f	namespace:utils
+umin	Utilities.cpp	/^unsigned umin(unsigned x, unsigned y) {$/;"	f	namespace:utils
+umod	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::umod(StridedInterval& i) {$/;"	f	class:StridedInterval
+unlinkBasicBlocks	cfg.cpp	/^void Cfg::unlinkBasicBlocks(BasicBlock *sbb, BasicBlock *dbb) {$/;"	f	class:Cfg
+unserialize	serialize.cpp	/^void unserialize( const char * f, $/;"	f
+utils	Utilities.cpp	/^namespace utils {$/;"	n	file:
+utils	Utilities.h	/^namespace utils {$/;"	n
+utils	static/AbsDomStridedInterval.h	/^namespace utils {$/;"	n
+utils	static/AbsRegion.h	/^namespace utils {$/;"	n
+utils	static/HashFunctions.cpp	/^namespace utils {$/;"	n	file:
+utils	static/HashFunctions.h	/^namespace utils {$/;"	n
+v	graph.h	/^	vertex_descriptor v;$/;"	m	class:Graph::const_pred_iterator
+v	graph.h	/^	vertex_descriptor v;$/;"	m	class:Graph::const_succ_iterator
+value_type	bourdoncle_wto.h	/^        typedef V                     value_type;$/;"	t	class:WTO::const_iterator
+value_type	bourdoncle_wto.h	/^        typedef V                     value_type;$/;"	t	class:WTO::const_reverse_iterator
+value_type	graph.h	/^        typedef edge_t              value_type;$/;"	t	class:Graph::const_edge_iterator
+value_type	graph.h	/^        typedef vertex_t              value_type;$/;"	t	class:Graph::const_pred_iterator
+value_type	graph.h	/^        typedef vertex_t              value_type;$/;"	t	class:Graph::const_succ_iterator
+value_type	graph.h	/^        typedef vertex_t              value_type;$/;"	t	class:Graph::const_vertex_iterator
+var_set_t	dataflow.h	/^typedef std::set<var_t> var_set_t;$/;"	t
+var_t	dataflow.h	/^typedef std::string var_t;$/;"	t
+vcg	callgraph.cpp	/^std::string CallGraph::vcg() {$/;"	f	class:CallGraph
+vcg	cfg.cpp	/^std::string Cfg::vcg() {$/;"	f	class:Cfg
+vcg	pinTracer.cpp	/^static const char * vcg     = NULL;$/;"	v	file:
+vertex_descriptor	graph.h	/^    typedef typename boost::graph_traits<graph_t>::vertex_descriptor vertex_descriptor;$/;"	t	class:Graph
+vertex_iterator	graph.h	/^    typedef typename boost::graph_traits<graph_t>::vertex_iterator vertex_iterator;$/;"	t	class:Graph
+vertex_map	graph.h	/^    typename boost::property_map<graph_t, vertex_properties_t>::type vertex_map;$/;"	m	class:Graph
+vertex_properties	graph.h	/^enum vertex_properties_t { vertex_properties };$/;"	e	enum:vertex_properties_t
+vertex_properties_t	graph.h	/^enum vertex_properties_t { vertex_properties };$/;"	g
+vertex_range_t	graph.h	/^    typedef std::pair<vertex_iterator, vertex_iterator> vertex_range_t;$/;"	t	class:Graph
+vertex_rev_map	graph.h	/^    std::map<vertex_t, vertex_descriptor> vertex_rev_map;$/;"	m	class:Graph
+vertex_t	graph.h	/^    typedef VERTEX vertex_t;$/;"	t	class:Graph
+vertices_begin	graph.h	/^    const_vertex_iterator vertices_begin() const {$/;"	f	class:Graph
+vertices_end	graph.h	/^    const_vertex_iterator vertices_end() const {$/;"	f	class:Graph
+vine	instr.h	/^namespace vine {$/;"	n
+visit	static/AbstractInterpreter.h	/^    VSetPtr visit(Expression* E){ return visit(*E); }$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^    void visit(BasicBlock* B)    {        visit(*B); }$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^    void visit(Cfg* C, addr_t a = 0)           {        visit(*C, a); }$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^    void visit(Function& F) {$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^    void visit(Function* F)      {        visit(*F); }$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^    void visit(Instruction* I)   {        visit(*I); }$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^    void visit(Statement* S)     {        visit(*S); }$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^AbstractInterpreter<SubClass, ValSetTy, StateTy>::visit(Expression& E) {$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^AbstractInterpreter<SubClass,ValSetTy,StateTy>::visit(BasicBlock &bb) {$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^AbstractInterpreter<SubClass,ValSetTy,StateTy>::visit(Instruction &i) {$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^AbstractInterpreter<SubClass,ValSetTy,StateTy>::visit(Statement& S) {$/;"	f	class:absinter::AbstractInterpreter
+visit	static/AbstractInterpreter.h	/^inline void AbstractInterpreter<S, V, St>::visit( Cfg &  cfg, $/;"	f	class:absinter::AbstractInterpreter
+visitBasicBlock	static/AbstractInterpreter.h	/^    bool visitBasicBlock(BasicBlock&) { return false; }$/;"	f	class:absinter::AbstractInterpreter
+visitBinopExpr	static/AbstractInterpreter.h	/^    VSetPtr visitBinopExpr(BinopExpr& E, VSetPtr, VSetPtr) { $/;"	f	class:absinter::AbstractInterpreter
+visitCFG	static/AbstractInterpreter.h	/^    bool visitCFG(Cfg&) { return false; }$/;"	f	class:absinter::AbstractInterpreter
+visitCallInstr	static/AbstractInterpreter.h	/^AbstractInterpreter<SubClass,ValSetTy,StateTy>::visitCallInstr(CallInstr$/;"	f	class:absinter::AbstractInterpreter
+visitCastExpr	static/AbstractInterpreter.h	/^    VSetPtr visitCastExpr(CastExpr& E, VSetPtr) {$/;"	f	class:absinter::AbstractInterpreter
+visitConstExpr	static/AbstractInterpreter.h	/^    VSetPtr visitConstExpr(ConstExpr& E) {$/;"	f	class:absinter::AbstractInterpreter
+visitExpression	static/AbstractInterpreter.h	/^    VSetPtr visitExpression(Expression&) { $/;"	f	class:absinter::AbstractInterpreter
+visitFunction	static/AbstractInterpreter.h	/^    bool visitFunction(Function&) { return false; }$/;"	f	class:absinter::AbstractInterpreter
+visitInstruction	static/AbstractInterpreter.h	/^    bool visitInstruction(Instruction&) { return false; }$/;"	f	class:absinter::AbstractInterpreter
+visitMemExpr	static/AbstractInterpreter.h	/^    VSetPtr visitMemExpr(MemExpr& E, VSetPtr) {$/;"	f	class:absinter::AbstractInterpreter
+visitMoveInstr	static/AbstractInterpreter.h	/^    void visitMoveInstr(MoveInstr& I)      { DELEGATE(Statement) }$/;"	f	class:absinter::AbstractInterpreter
+visitReturnInstr	static/AbstractInterpreter.h	/^    void visitReturnInstr(ReturnInstr& I)  { DELEGATE(Statement) }$/;"	f	class:absinter::AbstractInterpreter
+visitStatement	static/AbstractInterpreter.h	/^    bool visitStatement(Statement&) { return false; }$/;"	f	class:absinter::AbstractInterpreter
+visitStringInstr	static/AbstractInterpreter.h	/^    void visitStringInstr(Instruction&, const char*) {}$/;"	f	class:absinter::AbstractInterpreter
+visitTempExpr	static/AbstractInterpreter.h	/^    VSetPtr visitTempExpr(TempExpr& E) {$/;"	f	class:absinter::AbstractInterpreter
+visitUnopExpr	static/AbstractInterpreter.h	/^    VSetPtr visitUnopExpr(UnopExpr& E, VSetPtr) {$/;"	f	class:absinter::AbstractInterpreter
+visitVarDeclInstr	static/AbstractInterpreter.h	/^    void visitVarDeclInstr(VarDeclInstr& I){ DELEGATE(Statement) }$/;"	f	class:absinter::AbstractInterpreter
+visitXallocInstr	static/AbstractInterpreter.h	/^    void visitXallocInstr(Instruction&, const char*) {}$/;"	f	class:absinter::AbstractInterpreter
+vit	graph.h	/^	in_edge_iterator vit;$/;"	m	class:Graph::const_pred_iterator
+vit	graph.h	/^	out_edge_iterator vit;$/;"	m	class:Graph::const_succ_iterator
+vit	graph.h	/^	vertex_iterator vit;$/;"	m	class:Graph::const_vertex_iterator
+warn	debug.h	15;"	d
+warning	InterProcCFG.h	/^    Warning *warning;$/;"	m	class:InterProcCFG
+warnings	static/static.cc	/^warnings_t warnings;$/;"	v
+weak2strong	static/AbsRegion.h	/^inline rg::RegionTy Region<T>::weak2strong(rg::RegionTy ty) {$/;"	f	class:absdomain::Region
+weaklyUpdatable	static/AbsRegion.h	/^inline bool Region<T>::weaklyUpdatable(rg::RegionTy ty) {$/;"	f	class:absdomain::Region
+widen	static/AbsDomStridedInterval.cpp	/^StridedIntervalPtr StridedInterval::widen(_Self& with) {$/;"	f	class:StridedInterval
+widen	static/AbsRegion.h	/^inline typename Region<T>::RegionPtr Region<T>::widen(_Self& with) {$/;"	f	class:absdomain::Region
+widen	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::widen(_Self& with) {$/;"	f	class:absdomain::AbsState
+widen	static/AbstractInterpreter.h	/^		    StateTy>::widen(StateTy& l, StateTy& w) {$/;"	f	class:absinter::AbstractInterpreter
+withinBoundsOf	static/AbsDomStridedInterval.cpp	/^bool StridedInterval::withinBoundsOf(const StridedInterval& a) const {$/;"	f	class:StridedInterval
+withinBoundsOf	static/AbsRegion.h	/^inline bool Region<T>::withinBoundsOf(const _Self& r) const {$/;"	f	class:absdomain::Region
+withinComponent	graph.h	/^    bool withinComponent(vertex_t component, vertex_t v) {$/;"	f	class:Graph
+write	static/AbsRegion.h	/^    RegionPtr write(reg::RegEnumTy ty, VSetPtr p) {$/;"	f	class:absdomain::Region
+write	static/AbsRegion.h	/^inline typename Region<T>::RegionPtr Region<T>::write(TPtr p, AlocPair$/;"	f	class:absdomain::Region
+write	static/AbsRegion.h	/^inline typename Region<T>::RegionPtr Region<T>::write(TPtr p,VSetPtr s){$/;"	f	class:absdomain::Region
+write	static/AbsRegion.h	/^inline typename Region<T>::RegionPtr Region<T>::write(reg::RegEnumTy r,$/;"	f	class:absdomain::Region
+write	static/AbsState.h	/^    StatePtr write(reg::RegEnumTy ty, VSetPtr p) {$/;"	f	class:absdomain::AbsState
+write	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::write(AlocPair p, VSetPtr v) {$/;"	f	class:absdomain::AbsState
+write	static/AbsState.h	/^inline BOOSTPTR AbsState<T>::write(VSetPtr adr, VSetPtr val) {$/;"	f	class:absdomain::AbsState
+wto	graph.h	/^    WTO<vertex_descriptor> wto;$/;"	m	class:Graph
+wto2string	cfg.cpp	/^std::string Cfg::wto2string() {$/;"	f	class:Cfg
+wto_begin	graph.h	/^    const_wto_iterator wto_begin() const {$/;"	f	class:Graph
+wto_begin	graph.h	/^    const_wto_iterator wto_begin(vertex_t v) const {$/;"	f	class:Graph
+wto_computed	graph.h	/^    bool wto_computed;$/;"	m	class:Graph
+wto_end	graph.h	/^    const_wto_iterator wto_end() const {$/;"	f	class:Graph
+wto_end	graph.h	/^    const_wto_iterator wto_end(vertex_t v) const {$/;"	f	class:Graph
+wto_rbegin	graph.h	/^    const_reverse_wto_iterator wto_rbegin() const {$/;"	f	class:Graph
+wto_rbegin	graph.h	/^    const_reverse_wto_iterator wto_rbegin(vertex_t v) const {$/;"	f	class:Graph
+wto_rend	graph.h	/^    const_reverse_wto_iterator wto_rend() const {$/;"	f	class:Graph
+wto_rend	graph.h	/^    const_reverse_wto_iterator wto_rend(vertex_t v) const {$/;"	f	class:Graph
+~AbstractDomain	static/AbstractDomain.h	/^    virtual ~AbstractDomain() {}$/;"	f	class:absdomain::AbstractDomain
+~BasicBlock	cfg.cpp	/^BasicBlock::~BasicBlock() {$/;"	f	class:BasicBlock
+~BasicBlockEdge	cfg.cpp	/^BasicBlockEdge::~BasicBlockEdge() {$/;"	f	class:BasicBlockEdge
+~CallGraph	callgraph.h	/^    ~CallGraph() {;}$/;"	f	class:CallGraph
+~CallGraphEdge	callgraph.h	/^    ~CallGraphEdge() {;}$/;"	f	class:CallGraphEdge
+~Cfg	cfg.h	/^    ~Cfg() {}$/;"	f	class:Cfg
+~Function	func.cpp	/^Function::~Function() {$/;"	f	class:Function
+~Graph	graph.h	/^    ~Graph() {$/;"	f	class:Graph
+~Instruction	instr.cpp	/^Instruction::~Instruction() {$/;"	f	class:Instruction
+~IntraProcCFG	InterProcCFG.cc	/^IntraProcCFG::~IntraProcCFG() {$/;"	f	class:IntraProcCFG
+~Module	prog.h	/^    ~Module() {;}$/;"	f	class:Module
+~Prog	prog.h	/^    ~Prog() {$/;"	f	class:Prog
+~Section	prog.h	/^    ~Section() {;}$/;"	f	class:Section
+~WTO	bourdoncle_wto.h	/^    ~WTO() {;}$/;"	f	class:WTO

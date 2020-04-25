@@ -1,0 +1,10 @@
+digraph G {
+   bb_7f9da65da4d5 [label="7f9da65da4d5-7f9da65da4d6 (0)", color="red" style=filled];
+   bb_7f9da65da4c4 [label="7f9da65da4c4-7f9da65da4d4 (1)" style=filled];
+   bb_7f9da65da4b9 [label="7f9da65da4b9-7f9da65da4c3 (2)" style=filled];
+   bb_7f9da65da4b0 [label="7f9da65da4b0-7f9da65da4b8 (3)", color="green" style=filled];
+   bb_7f9da65da4b0 -> bb_7f9da65da4b9;
+   bb_7f9da65da4b9 -> bb_7f9da65da4c4;
+   bb_7f9da65da4c4 -> bb_7f9da65da4d5;
+   bb_7f9da65da4d5 -> bb_7f9da65da4d5 [color=purple];
+}

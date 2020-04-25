@@ -1,0 +1,50 @@
+VINEBAP_SRC?=""
+BUILD_ROOT?=""
+
+COMMON_CFLAGS?=
+
+VINEBAP_CPPFLAGS:=-I$(VINEBAP_SRC)
+
+FUZZBALL_BASEDIR:=$(BUILD_ROOT)/fuzzball
+
+VEXDIR:=$(FUZZBALL_BASEDIR)/vex-r2737
+VEX_CPPFLAGS:=-I$(VEXDIR)/pub
+VEX_LDFLAGS:=-L$(VEXDIR) -lvex
+
+BFD_LDFLAGS:=-lbfd
+
+VINEDIR:=$(FUZZBALL_BASEDIR)/fuzzball/libasmir
+VINE_CPPFLAGS:=-I$(VINEDIR)/src/include -I$(VINEDIR)
+VINE_LDFLAGS:=$(VINEDIR)/src/libasmir.a -lopcodes -lz
+
+
+BOOSTDIR?=$(BUILD_ROOT)/boost_1_48_0-gcc-4.8
+BOOST_CPP_FLAGS?=-I$(BOOSTDIR)/install/include
+BOOST_LD_FLAGS?=-L$(BOOSTDIR)/install/lib -lboost_serialization -lboost_iostreams -lboost_program_options
+
+
+#GENERAL_CPP_FLAGS:=-w -I/usr/include/c++/4.8 -shared -fPIC
+GENERAL_CPP_FLAGS:=-w -shared -fPIC
+
+PINDIR:=$(BUILD_ROOT)/pin-2.14-71313-gcc.4.4.7-linux
+XED_CFLAGS:=-I$(PINDIR)/extras/xed-intel64/include
+
+CXX?=g++
+
+#COMMON_OBJECTS=$(BUILD_ROOT)/argv_readparam.o $(BUILD_ROOT)/callgraph.o $(BUILD_ROOT)/cfg.o $(BUILD_ROOT)/func.o \
+	       $(BUILD_ROOT)/instr.o $(BUILD_ROOT)/serialize.o $(BUILD_ROOT)/Utilities.o
+
+
+#$(BUILD_ROOT)/%.o: $(VINEBAP_SRC)%.cpp
+	#$(CXX) $(COMMON_CFLAGS) $(GENERAL_CPP_FLAGS) $(XED_CFLAGS) $(VINEBAP_CPPFLAGS) $(VEX_CPPFLAGS) $(VINE_CPPFLAGS) $(PIN_CPP_FLAGS) $(BOOST_CPP_FLAGS) $< -c -o $@ 
+
+
+
+PWDDIR=$(shell pwd)
+COMMON_OBJECTS=$(PWDDIR)/argv_readparam.o $(PWDDIR)/callgraph.o $(PWDDIR)/cfg.o $(PWDDIR)/func.o \
+	       $(PWDDIR)/instr.o $(PWDDIR)/serialize.o $(PWDDIR)/Utilities.o
+
+$(PWDDIR)/%.o: $(VINEBAP_SRC)%.cpp
+	$(CXX) $(COMMON_CFLAGS) $(GENERAL_CPP_FLAGS) $(XED_CFLAGS) $(VINEBAP_CPPFLAGS) $(VEX_CPPFLAGS) $(VINE_CPPFLAGS) $(PIN_CPP_FLAGS) $(BOOST_CPP_FLAGS) $< -c -o $@ 
+
+

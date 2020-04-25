@@ -1,0 +1,7 @@
+digraph G {
+   bb_555ec3c72808 [label="555ec3c72808-555ec3c7280a (0)", color="red" style=filled];
+   bb_555ec3c727df [label="555ec3c727df-555ec3c72807 (1)", color="green" style=filled];
+   func_7f9da65449c0 [label="_IO_puts@7f9da65449c0 [/lib/x86_64-linux-gnu/libc.so.6]", color=blue, shape=rectangle,URL="7f9da65449c0.svg"];
+   bb_555ec3c727df -> func_7f9da65449c0 [color=blue];
+   bb_555ec3c727df -> bb_555ec3c72808;
+}
