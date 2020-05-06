@@ -21,17 +21,20 @@ PINDIR:=$(BUILD_ROOT)/pin-2.14-71313-gcc.4.4.7-linux
 
 #BOOST_LD_FLAGS:=-L$(BOOSTDIR)/install/lib -lboost_serialization -lboost_iostreams -lboost_program_options
 
-CXX=clang-3.9
+#CXX=clang-3.9
+CXX=g++
 COMMON_CFLAGS=-std=c++11 -ftemplate-depth=1024 -g
 BOOST_CPP_FLAGS=
 BOOST_LD_FLAGS=
 
 diVine: main.o irRecovery.o cfgExtract.o binaryCFG.o $(COMMON_OBJECTS) $(MYSRC)/vmi/libvmi.a $(LLVM_COMPONENTS) 
 	#clang-3.9 $^ $(MY_LDFLAGS) -L$(BOOSTDIR)/install/lib -Wl,-rpath $(BOOSTDIR)/install/lib -lboost_serialization -lboost_iostreams -lboost_program_options -I$(FUZZBALL_BASEDIR)/fuzzball/libasmir/src/include  -I$(VEXDIR)/pub -Wall  -g -O2 -L$(VINEDIR)/src -L$(VEXDIR) -lasmir -lvex -lbfd -lopcodes -liberty -lz -ldl -o $@ 
-	clang++-3.9 $^ $(MY_LDFLAGS) -lboost_serialization -lboost_iostreams -lboost_program_options -I$(FUZZBALL_BASEDIR)/fuzzball/libasmir/src/include  -I$(VEXDIR)/pub -Wall  -g -O2 -L$(VINEDIR)/src -L$(VEXDIR) -lasmir -L$(PINDIR)/extras/xed-intel64/lib -lvex -lbfd -lxed -lopcodes -liberty -lz -ldl -o $@ 
+	#clang++-3.9 $^ $(MY_LDFLAGS) -lboost_serialization -lboost_iostreams -lboost_program_options -I$(FUZZBALL_BASEDIR)/fuzzball/libasmir/src/include  -I$(VEXDIR)/pub -Wall  -g -O2 -L$(VINEDIR)/src -L$(VEXDIR) -lasmir -L$(PINDIR)/extras/xed-intel64/lib -lvex -lbfd -lxed -lopcodes -liberty -lz -ldl -o $@ 
+	g++ $^ $(MY_LDFLAGS) -lboost_serialization -lboost_iostreams -lboost_program_options -I$(FUZZBALL_BASEDIR)/fuzzball/libasmir/src/include  -I$(VEXDIR)/pub -Wall  -g -O2 -L$(VINEDIR)/src -L$(VEXDIR) -lasmir -L$(PINDIR)/extras/xed-intel64/lib -lvex -lbfd -lxed -lopcodes -liberty -lz -ldl -o $@ 
 
 
 %.o: $(MYSRC)/%.cpp
-	clang++-3.9 -Wextern-c-compat $(MY_CFLAGS) $^ -I$(MYSRC) $(LLVM_CFLAGS) $(COMMON_CFLAGS) $(VINEBAP_CPPFLAGS) $(VINE_CPPFLAGS) $(VEX_CPPFLAGS) -I$(PINDIR)/extras/xed-intel64/include -c -o $@
+	#clang++-3.9 -Wextern-c-compat $(MY_CFLAGS) $^ -I$(MYSRC) $(LLVM_CFLAGS) $(COMMON_CFLAGS) $(VINEBAP_CPPFLAGS) $(VINE_CPPFLAGS) $(VEX_CPPFLAGS) -I$(PINDIR)/extras/xed-intel64/include -c -o $@
+	g++ $(MY_CFLAGS) $^ -I$(MYSRC) $(LLVM_CFLAGS) $(COMMON_CFLAGS) $(VINEBAP_CPPFLAGS) $(VINE_CPPFLAGS) $(VEX_CPPFLAGS) -I$(PINDIR)/extras/xed-intel64/include -c -o $@
 
 

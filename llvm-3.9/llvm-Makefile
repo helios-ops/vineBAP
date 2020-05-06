@@ -1,0 +1,89 @@
+VINEBAP_SRC?=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+
+VINEBAP_CLANG_BUILD?=$(VINEBAP_SRC)/clang-binary-opt
+LLVM_SCRATCH_UTIL?=$(VINEBAP_BUILD)
+
+LLVM_VERSION=3.9.1
+UBUNTU_VERSION=16.04
+
+LLVM_SRC=llvm-$(LLVM_VERSION).src.tar.xz
+LLVM_SRC_DIR=llvm-$(LLVM_VERSION).src
+
+#CLANG_BINARY_DIR=clang+llvm-3.9.0-x86_64-linux-gnu-ubuntu-$(UBUNTU_VERSION)
+CLANG_BINARY_DIR=clang+llvm-3.9.1-x86_64-linux-gnu-ubuntu-$(UBUNTU_VERSION)
+
+CLANG_BINARY=$(CLANG_BINARY_DIR).tar.xz
+
+CLANG_SRC=cfe-$(LLVM_VERSION).src.tar.xz
+CLANG_SRC_DIR=cfe-$(LLVM_VERSION).src
+CLANG_DEST_DIR=$(LLVM_SRC_DIR)/tools/clang
+
+COMPILER_RT_SRC=compiler-rt-$(LLVM_VERSION).src.tar.xz
+COMPILER_RT_SRC_DIR=compiler-rt-$(LLVM_VERSION).src
+COMPILER_RT_DEST_DIR=$(LLVM_SRC_DIR)/projects/compiler-rt
+
+
+all: stamps/llvm-release-make
+
+.INTERMEDIATE: $(CLANG_SRC_DIR) $(COMPILER_RT_SRC_DIR) $(CLANG_BINARY_DIR)
+
+$(LLVM_SRC_DIR): $(LLVM_SRC) $(CLANG_SRC_DIR) $(COMPILER_RT_SRC_DIR)
+	tar -xmf $<
+	echo $(LLVM_SRC_DIR)
+	mv $(CLANG_SRC_DIR) $(CLANG_DEST_DIR)
+	mv $(COMPILER_RT_SRC_DIR) $(COMPILER_RT_DEST_DIR)
+
+$(CLANG_SRC_DIR): $(CLANG_SRC)
+	tar -xmf $<
+
+$(CLANG_BINARY_DIR): $(CLANG_BINARY)
+	tar -xmf $<
+	mkdir -p $(VINEBAP_CLANG_BUILD)
+	cp -r $(CLANG_BINARY_DIR)/* $(VINEBAP_CLANG_BUILD)
+	rm -r $(CLANG_BINARY_DIR)/*
+
+$(COMPILER_RT_SRC_DIR): $(COMPILER_RT_SRC)
+	tar -xmf $<
+
+CLANG_CC = $(VINEBAP_CLANG_BUILD)/bin/clang
+CLANG_CXX = $(VINEBAP_CLANG_BUILD)/bin/clang++
+CLANG_LIB = $(VINEBAP_CLANG_BUILD)/lib
+
+
+LLVMBUILD = .
+
+stamps/llvm-native-make: $(CLANG_BINARY_DIR) $(LLVM_SRC_DIR)
+	#touch $@
+
+LLVM_CONFIGURE_FLAGS = -DLLVM_TARGETS_TO_BUILD="X86"        \
+                       -DLLVM_TARGET_ARCH="X86_64"          \
+                       -DLLVM_INCLUDE_EXAMPLES=Off          \
+                       -DLLVM_INCLUDE_DOCS=Off              \
+                       -DLLVM_INCLUDE_TESTS=Off             \
+                       -DLLVM_ENABLE_RTTI=On                \
+                       -DLLVM_ENABLE_EH=On                  \
+                       -DLLVM_BINUTILS_INCDIR=/usr/include  \
+                       -DCOMPILER_RT_BUILD_SANITIZERS=Off   \
+                       -DENABLE_ASSERTIONS=On               \
+                       -DCMAKE_C_COMPILER=$(CLANG_CC)       \
+                       -DCMAKE_CXX_COMPILER=$(CLANG_CXX)    \
+                       -DCMAKE_C_FLAGS="$(CFLAGS_ARCH)"     \
+                       -G "Unix Makefiles"
+
+stamps/llvm-release-configure: stamps/llvm-native-make
+stamps/llvm-release-configure: 
+	cmake $(LLVM_CONFIGURE_FLAGS) -DCMAKE_BUILD_TYPE=Release $(LLVM_SRC_DIR)
+
+
+stamps/llvm-release-make: stamps/llvm-release-configure
+	echo "done"
+
+
+#stamps/%-configure: | % stamps
+#	cd $* && $(CONFIGURE_COMMAND)
+#	touch $@
+
+#stamps/%-make:
+#	$(MAKE) -C $* $(BUILD_OPTS)
+#	touch $@
+
